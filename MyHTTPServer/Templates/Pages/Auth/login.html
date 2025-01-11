@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ВОЙТИ</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/login.css">
+</head>
+<body>
+<div class="entranceCont">
+  <a href="index"> 
+  <img class="appleLogo" src="assets/images/logo_12.png">
+    </a>
+  <div class="mainCont">
+    <h1>Вход в учётную запись</h1>
+    <form id="entrance" method="POST" action="/login">
+      <label for="mail">АДРЕС ЭЛЕКТРОННОЙ ПОЧТЫ</label>
+      <input type="email" id="mail" name="mail" required>
+
+      <label for="password">ПАРОЛЬ</label>
+      <input type="password" id="password" name="password" required>
+
+      <div class="buttonNext">
+        <button type="submit">ДАЛЕЕ</button>
+      </div>
+    </form>
+  </div>
+</div>
+</body>
+</html>

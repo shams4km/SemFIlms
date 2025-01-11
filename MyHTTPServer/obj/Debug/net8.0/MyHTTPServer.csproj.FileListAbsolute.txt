@@ -1,0 +1,405 @@
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/MyHTTPServer.exe
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/MyHTTPServer.deps.json
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/MyHTTPServer.runtimeconfig.json
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/MyHTTPServer.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/MyHTTPServer.pdb
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/obj/Debug/net8.0/MyHTTPServer.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/obj/Debug/net8.0/MyHTTPServer.AssemblyInfoInputs.cache
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/obj/Debug/net8.0/MyHTTPServer.AssemblyInfo.cs
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/obj/Debug/net8.0/MyHTTPServer.csproj.CoreCompileInputs.cache
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/obj/Debug/net8.0/MyHTTPServer.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/obj/Debug/net8.0/refint/MyHTTPServer.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/obj/Debug/net8.0/MyHTTPServer.pdb
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/obj/Debug/net8.0/MyHTTPServer.genruntimeconfig.cache
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/obj/Debug/net8.0/ref/MyHTTPServer.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Program.cs
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/HTTPServer.cs
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/config.json
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/services/IMailService.cs
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/services/MailService.cs
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/HttpServerLibrary.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/HttpServerLibrary.pdb
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/obj/Debug/net8.0/MyHTTPServer.csproj.AssemblyReference.cache
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/obj/Debug/net8.0/MyHTTPServer.csproj.CopyComplete
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Azure.Core.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Azure.Identity.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.Bcl.Cryptography.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.Identity.Client.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/System.ClientModel.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/System.Diagnostics.EventLog.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/System.Formats.Asn1.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/System.Memory.Data.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/System.Security.Cryptography.Pkcs.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/cs/Microsoft.Data.SqlClient.resources.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/de/Microsoft.Data.SqlClient.resources.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/es/Microsoft.Data.SqlClient.resources.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/fr/Microsoft.Data.SqlClient.resources.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/it/Microsoft.Data.SqlClient.resources.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/ja/Microsoft.Data.SqlClient.resources.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/ko/Microsoft.Data.SqlClient.resources.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/pl/Microsoft.Data.SqlClient.resources.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/pt-BR/Microsoft.Data.SqlClient.resources.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/ru/Microsoft.Data.SqlClient.resources.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/tr/Microsoft.Data.SqlClient.resources.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/zh-Hans/Microsoft.Data.SqlClient.resources.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/zh-Hant/Microsoft.Data.SqlClient.resources.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/runtimes/unix/lib/net8.0/Microsoft.Data.SqlClient.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/runtimes/win/lib/net8.0/Microsoft.Data.SqlClient.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/MyORMLibrary.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/MyORMLibrary.pdb
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/authentication-reset-password-basic.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/authentication-reset-password-cover.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/authentication-reset-password-simple.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/authentication-sign-in-cover.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/authentication-sign-in-simple.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/authentication-sign-up-basic.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/authentication-sign-up-cover.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/authentication-sign-up-simple.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/charts-apex-chart.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/charts-chartjs.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/charts-other.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/charts-peity.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/component-accordions.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/component-alerts.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/component-badges.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/component-buttons.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/component-cards.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/component-carousels.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/component-list-groups.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/component-media-object.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/component-modals.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/component-navs-tabs.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/component-notifications.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/component-paginations.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/component-popovers-tooltips.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/component-progress-bars.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/component-spinners.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/ecommerce-checkout-complete.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/ecommerce-checkout-details.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/ecommerce-checkout-payment.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/ecommerce-checkout-review.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/ecommerce-checkout-shipping.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/ecommerce-product-comparison.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/ecommerce-product-details.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/ecommerce-shop-cart.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/ecommerce-shop-grid-view-top-filter.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/ecommerce-shop-grid-view.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/ecommerce-shop-list-view.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/form-date-time-pickes.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/form-elements.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/form-file-upload.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/form-input-group.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/form-layouts.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/form-radios-and-checkboxes.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/form-select2.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/form-validations.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/form-wizard.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/icons-boxicons.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/icons-feather-icons.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/icons-line-icons.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/index2.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/index3.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/map-google-maps.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/map-vector-maps.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/pages-edit-profile.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/pages-errors-404-error.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/pages-errors-500-error.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/pages-errors-coming-soon.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/pages-faq.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/pages-invoices.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/pages-pricing-tables.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/pages-starter-page.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/pages-to-do.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/pages-user-profile.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/table-advance-tables.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/table-basic-table.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/table-datatable.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/widgets-data-widgets.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/widgets-static-widgets.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Templates/Pages/Auth/login.html
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Templates/Pages/Dashboard/index.html
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/MyHTTPServer.exe
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/HTTPServer.cs
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Program.cs
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/services/IMailService.cs
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/services/MailService.cs
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/config.json
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Templates/Pages/Auth/login.html
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Templates/Pages/Dashboard/index.html
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/MyHTTPServer.deps.json
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/MyHTTPServer.runtimeconfig.json
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/MyHTTPServer.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/MyHTTPServer.pdb
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Azure.Core.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Azure.Identity.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.Bcl.Cryptography.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.Identity.Client.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/System.ClientModel.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/System.Diagnostics.EventLog.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/System.Formats.Asn1.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/System.Memory.Data.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/System.Security.Cryptography.Pkcs.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/cs/Microsoft.Data.SqlClient.resources.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/de/Microsoft.Data.SqlClient.resources.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/es/Microsoft.Data.SqlClient.resources.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/fr/Microsoft.Data.SqlClient.resources.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/it/Microsoft.Data.SqlClient.resources.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/ja/Microsoft.Data.SqlClient.resources.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/ko/Microsoft.Data.SqlClient.resources.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/pl/Microsoft.Data.SqlClient.resources.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/pt-BR/Microsoft.Data.SqlClient.resources.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/ru/Microsoft.Data.SqlClient.resources.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/tr/Microsoft.Data.SqlClient.resources.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/zh-Hans/Microsoft.Data.SqlClient.resources.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/zh-Hant/Microsoft.Data.SqlClient.resources.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/runtimes/unix/lib/net8.0/Microsoft.Data.SqlClient.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/runtimes/win/lib/net8.0/Microsoft.Data.SqlClient.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/HttpServerLibrary.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/MyORMLibrary.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/HttpServerLibrary.pdb
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/MyORMLibrary.pdb
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/obj/Debug/net8.0/MyHTTPServer.csproj.AssemblyReference.cache
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/obj/Debug/net8.0/MyHTTPServer.GeneratedMSBuildEditorConfig.editorconfig
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/obj/Debug/net8.0/MyHTTPServer.AssemblyInfoInputs.cache
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/obj/Debug/net8.0/MyHTTPServer.AssemblyInfo.cs
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/obj/Debug/net8.0/MyHTTPServer.csproj.CoreCompileInputs.cache
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/obj/Debug/net8.0/MyHTTPSe.F316BD60.Up2Date
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/obj/Debug/net8.0/MyHTTPServer.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/obj/Debug/net8.0/refint/MyHTTPServer.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/obj/Debug/net8.0/MyHTTPServer.pdb
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/obj/Debug/net8.0/MyHTTPServer.genruntimeconfig.cache
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/obj/Debug/net8.0/ref/MyHTTPServer.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/css/login.css
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/images/applePNG.png
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/css/index.css
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/tralers/tedlasso.MP4
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/js/index.js
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/icons/appletv.png
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/icons/iconAppleTV.png
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/icons/link.png
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/icons/search.png
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/icons/user2.png
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Templates/Pages/Movie/movie.html
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/css/movie.css
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/js/movie.js
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/System.Data.SQLite.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/runtimes/linux-x64/native/SQLite.Interop.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/runtimes/osx-x64/native/SQLite.Interop.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/runtimes/win-x64/native/SQLite.Interop.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/runtimes/win-x86/native/SQLite.Interop.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/serials/tedlasso.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Npgsql.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/serials/coincidences.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/serials/footing.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/serials/past.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/serials/razdel.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/serials/shelter.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/serials/sistersGarvi.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/serials/slow.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/serials/therapy.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/serials/vision.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/movies/blic.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/movies/cristmas.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/movies/finch.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/movies/killmoon.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/movies/lacky.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/movies/moon.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/movies/napoleon.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/movies/otvet.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/movies/wolfs.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/movies/zachinchiki.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/comedies/coda.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/comedies/flora.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/comedies/kvest.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/comedies/last.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/comedies/mister.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/comedies/pivo.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/comedies/predskaz.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/comedies/ted.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/comedies/terap.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/comedies/vanda.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/dramas/badmankey.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/dramas/blackbirds.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/dramas/garvi.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/dramas/god.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/dramas/house.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/dramas/jack.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/dramas/reis.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/dramas/room.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/dramas/tegeran.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/dramas/vtor.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/fighters/argail.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/fighters/free.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/fighters/gray.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/fighters/manarh.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/fighters/nak.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/fighters/otv.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/fighters/plan.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/fighters/temnayamateria.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/fighters/wolfs.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/fighters/zach.webp
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/tralers/wolfs.MP4
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/tralers/liro.MP4
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyHTTPServer/bin/Debug/net8.0/Templates/Pages/Admin/admin-dashboard.html
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/MyHTTPServer
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/HTTPServer.cs
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/Program.cs
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/services/IMailService.cs
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/services/MailService.cs
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/config.json
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/css/index.css
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/css/login.css
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/css/movie.css
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/js/index.js
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/js/movie.js
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/Templates/Pages/Admin/admin-dashboard.html
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/Templates/Pages/Auth/login.html
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/Templates/Pages/Dashboard/index.html
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/MyHTTPServer.deps.json
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/MyHTTPServer.runtimeconfig.json
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/MyHTTPServer.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/MyHTTPServer.pdb
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/Azure.Core.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/Azure.Identity.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/Microsoft.Bcl.Cryptography.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/Microsoft.Identity.Client.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/Npgsql.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/System.Data.SQLite.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/System.ClientModel.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/System.Diagnostics.EventLog.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/System.Formats.Asn1.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/System.Memory.Data.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/System.Security.Cryptography.Pkcs.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/cs/Microsoft.Data.SqlClient.resources.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/de/Microsoft.Data.SqlClient.resources.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/es/Microsoft.Data.SqlClient.resources.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/fr/Microsoft.Data.SqlClient.resources.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/it/Microsoft.Data.SqlClient.resources.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/ja/Microsoft.Data.SqlClient.resources.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/ko/Microsoft.Data.SqlClient.resources.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/pl/Microsoft.Data.SqlClient.resources.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/pt-BR/Microsoft.Data.SqlClient.resources.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/ru/Microsoft.Data.SqlClient.resources.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/tr/Microsoft.Data.SqlClient.resources.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/zh-Hans/Microsoft.Data.SqlClient.resources.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/zh-Hant/Microsoft.Data.SqlClient.resources.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/runtimes/unix/lib/net8.0/Microsoft.Data.SqlClient.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/runtimes/win/lib/net8.0/Microsoft.Data.SqlClient.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/runtimes/linux-x64/native/SQLite.Interop.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/runtimes/osx-x64/native/SQLite.Interop.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/runtimes/win-x64/native/SQLite.Interop.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/runtimes/win-x86/native/SQLite.Interop.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/HttpServerLibrary.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/MyORMLibrary.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/HttpServerLibrary.pdb
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/MyORMLibrary.pdb
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/obj/Debug/net8.0/MyHTTPServer.csproj.AssemblyReference.cache
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/obj/Debug/net8.0/MyHTTPServer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/obj/Debug/net8.0/MyHTTPServer.AssemblyInfoInputs.cache
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/obj/Debug/net8.0/MyHTTPServer.AssemblyInfo.cs
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/obj/Debug/net8.0/MyHTTPServer.csproj.CoreCompileInputs.cache
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/obj/Debug/net8.0/MyHTTPSe.F316BD60.Up2Date
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/obj/Debug/net8.0/MyHTTPServer.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/obj/Debug/net8.0/refint/MyHTTPServer.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/obj/Debug/net8.0/MyHTTPServer.pdb
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/obj/Debug/net8.0/MyHTTPServer.genruntimeconfig.cache
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/obj/Debug/net8.0/ref/MyHTTPServer.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/images/bolshaya_vosmorka.jpg
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/images/100rub_na_mechtu.jpg
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/images/Golos_morya.jpg
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/images/Lybov.jpg
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/images/Moskva_Vladivostok.jpg
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/images/Nasledstvo.jpg
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/images/Nevesomost.jpg
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/images/Nezrachie_hudozhniki.jpg
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/images/Pechenka.jpg
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/images/Shartashskoe_more.jpg
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/images/shrift_brayla.jpg
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/images/Supersila.jpg
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/images/urok_ekologii.jpg
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/images/Yaschik_skinnera.jpg
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/Templates/Pages/Dashboard/index_lectures.html
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/Templates/Pages/Dashboard/index_movies.html
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/images/logo_12.png
+/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/bin/Debug/net8.0/public/ltr/assets/movies/movie.html

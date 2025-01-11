@@ -1,0 +1,2281 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--metatextblock-->
+    <title>Онлайн-кинотеатр</title>
+    <meta property="og:url" content="http://nezrimoekino.ru/movies"/>
+    <meta property="og:title" content="Онлайн-кинотеатр"/>
+    <meta property="og:description" content=""/>
+    <meta property="og:type" content="website"/>
+    <link rel="canonical" href="http://nezrimoekino.ru/movies">
+    <!--/metatextblock-->
+    <meta name="format-detection" content="telephone=no"/>
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="dns-prefetch" href="https://ws.tildacdn.com">
+    <link rel="dns-prefetch" href="https://static.tildacdn.com">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://static.tildacdn.com/tild3366-3061-4231-b637-343561343932/logo_12.png" media="(prefers-color-scheme: light)"/>
+    <link rel="icon" type="image/x-icon" sizes="32x32" href="https://static.tildacdn.com/tild6138-3262-4633-a136-346331646439/logo_123.svg" media="(prefers-color-scheme: dark)"/>
+    <link rel="icon" type="image/svg+xml" sizes="any" href="https://static.tildacdn.com/tild3066-3937-4233-b666-343064366135/favicon.svg">
+    <!-- Assets -->
+    <script src="https://neo.tildacdn.com/js/tilda-fallback-1.0.min.js" async charset="utf-8"></script>
+    <link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-grid-3.0.min.css" type="text/css" media="all" onerror="this.loaderr='y';"/>
+    <link rel="stylesheet" href="https://static.tildacdn.com/ws/project8957957/tilda-blocks-page49801309.min.css?t=1735480449" type="text/css" media="all" onerror="this.loaderr='y';"/>
+    <link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-animation-2.0.min.css" type="text/css" media="all" onerror="this.loaderr='y';"/>
+    <link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-popup-1.1.min.css" type="text/css" media="print" onload="this.media='all';" onerror="this.loaderr='y';"/>
+    <noscript>
+        <link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-popup-1.1.min.css" type="text/css" media="all"/>
+    </noscript>
+    <link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-feed-1.0.min.css" type="text/css" media="print" onload="this.media='all';" onerror="this.loaderr='y';"/>
+    <noscript>
+        <link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-feed-1.0.min.css" type="text/css" media="all"/>
+    </noscript>
+    <link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-slds-1.4.min.css" type="text/css" media="print" onload="this.media='all';" onerror="this.loaderr='y';"/>
+    <noscript>
+        <link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-slds-1.4.min.css" type="text/css" media="all"/>
+    </noscript>
+    <link rel="stylesheet" href="https://static.tildacdn.com/css/tilda-forms-1.0.min.css" type="text/css" media="all" onerror="this.loaderr='y';"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <script nomodule src="https://static.tildacdn.com/js/tilda-polyfill-1.0.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        function t_onReady(func) {
+            if (document.readyState != 'loading') {
+                func();
+            } else {
+                document.addEventListener('DOMContentLoaded', func);
+            }
+        }
+        function t_onFuncLoad(funcName, okFunc, time) {
+            if (typeof window[funcName] === 'function') {
+                okFunc();
+            } else {
+                setTimeout(function() {
+                    t_onFuncLoad(funcName, okFunc, time);
+                }, (time || 100));
+            }
+        }
+        function t_throttle(fn, threshhold, scope) {
+            return function() {
+                fn.apply(scope || this, arguments);
+            }
+                ;
+        }
+        function t396_initialScale(t) {
+            t = document.getElementById("rec" + t);
+            if (t) {
+                t = t.querySelector(".t396__artboard");
+                if (t) {
+                    var e, r = document.documentElement.clientWidth, a = [];
+                    if (i = t.getAttribute("data-artboard-screens"))
+                        for (var i = i.split(","), l = 0; l < i.length; l++)
+                            a[l] = parseInt(i[l], 10);
+                    else
+                        a = [320, 480, 640, 960, 1200];
+                    for (l = 0; l < a.length; l++) {
+                        var n = a[l];
+                        n <= r && (e = n)
+                    }
+                    var o = "edit" === window.allrecords.getAttribute("data-tilda-mode")
+                        , d = "center" === t396_getFieldValue(t, "valign", e, a)
+                        , c = "grid" === t396_getFieldValue(t, "upscale", e, a)
+                        , s = t396_getFieldValue(t, "height_vh", e, a)
+                        , u = t396_getFieldValue(t, "height", e, a)
+                        , g = !!window.opr && !!window.opr.addons || !!window.opera || -1 !== navigator.userAgent.indexOf(" OPR/");
+                    if (!o && d && !c && !s && u && !g) {
+                        for (var _ = parseFloat((r / e).toFixed(3)), f = [t, t.querySelector(".t396__carrier"), t.querySelector(".t396__filter")], l = 0; l < f.length; l++)
+                            f[l].style.height = Math.floor(parseInt(u, 10) * _) + "px";
+                        t396_scaleInitial__getElementsToScale(t).forEach(function(t) {
+                            t.style.zoom = _
+                        })
+                    }
+                }
+            }
+        }
+        function t396_scaleInitial__getElementsToScale(t) {
+            return t ? Array.prototype.slice.call(t.children).filter(function(t) {
+                return t && (t.classList.contains("t396__elem") || t.classList.contains("t396__group"))
+            }) : []
+        }
+        function t396_getFieldValue(t, e, r, a) {
+            var i = a[a.length - 1]
+                , l = r === i ? t.getAttribute("data-artboard-" + e) : t.getAttribute("data-artboard-" + e + "-res-" + r);
+            if (!l)
+                for (var n = 0; n < a.length; n++) {
+                    var o = a[n];
+                    if (!(o <= r) && (l = o === i ? t.getAttribute("data-artboard-" + e) : t.getAttribute("data-artboard-" + e + "-res-" + o)))
+                        break
+                }
+            return l
+        }
+    </script>
+    <script src="https://static.tildacdn.com/js/jquery-1.10.2.min.js" charset="utf-8" onerror="this.loaderr='y';"></script>
+    <script src="https://static.tildacdn.com/js/tilda-scripts-3.0.min.js" charset="utf-8" defer onerror="this.loaderr='y';"></script>
+    
+    <script src="https://static.tildacdn.com/js/tilda-lazyload-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+    <script src="https://static.tildacdn.com/js/tilda-animation-2.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+    <script src="https://static.tildacdn.com/js/tilda-feed-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+    <script src="https://static.tildacdn.com/js/tilda-slds-1.4.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+    <script src="https://static.tildacdn.com/js/hammer.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+    <script src="https://static.tildacdn.com/js/tilda-zero-1.1.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+    <script src="https://static.tildacdn.com/js/tilda-menu-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+    <script src="https://static.tildacdn.com/js/tilda-forms-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+    <script src="https://static.tildacdn.com/js/tilda-zero-forms-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+    
+    <script src="https://static.tildacdn.com/js/tilda-zero-scale-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+    <script src="https://static.tildacdn.com/js/tilda-skiplink-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+    <script src="https://static.tildacdn.com/js/tilda-events-1.0.min.js" charset="utf-8" async onerror="this.loaderr='y';"></script>
+    <script type="text/javascript">
+        window.dataLayer = window.dataLayer || [];
+    </script>
+    <script type="text/javascript">
+        (function() {
+                if ((/bot|google|yandex|baidu|bing|msn|duckduckbot|teoma|slurp|crawler|spider|robot|crawling|facebook/i.test(navigator.userAgent)) === false && typeof (sessionStorage) != 'undefined' && sessionStorage.getItem('visited') !== 'y' && document.visibilityState) {
+                    var style = document.createElement('style');
+                    style.type = 'text/css';
+                    style.innerHTML = '@media screen and (min-width: 980px) {.t-records {opacity: 0;}.t-records_animated {-webkit-transition: opacity ease-in-out .2s;-moz-transition: opacity ease-in-out .2s;-o-transition: opacity ease-in-out .2s;transition: opacity ease-in-out .2s;}.t-records.t-records_visible {opacity: 1;}}';
+                    document.getElementsByTagName('head')[0].appendChild(style);
+                    function t_setvisRecs() {
+                        var alr = document.querySelectorAll('.t-records');
+                        Array.prototype.forEach.call(alr, function(el) {
+                            el.classList.add("t-records_animated");
+                        });
+                        setTimeout(function() {
+                            Array.prototype.forEach.call(alr, function(el) {
+                                el.classList.add("t-records_visible");
+                            });
+                            sessionStorage.setItem("visited", "y");
+                        }, 400);
+                    }
+                    document.addEventListener('DOMContentLoaded', t_setvisRecs);
+                }
+            }
+        )();
+    </script>
+</head>
+<body class="t-body" style="margin:0;">
+<!--allrecords-->
+<div id="allrecords" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="8957957" data-tilda-page-id="49801309" data-tilda-page-alias="movies" data-tilda-formskey="b1a177039187a388f1852e7ec8957957" data-tilda-cookie="no" data-tilda-lazy="yes" data-tilda-project-lang="RU" data-tilda-root-zone="com">
+    <!--header-->
+    <header id="t-header" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="8957957" data-tilda-page-id="49951235" data-tilda-formskey="b1a177039187a388f1852e7ec8957957" data-tilda-cookie="no" data-tilda-lazy="yes" data-tilda-project-lang="RU" data-tilda-root-zone="com">
+        <div id="rec757323946" class="r t-rec" style=" " data-animationappear="off" data-record-type="396">
+            <!-- T396 -->
+            <style>
+                #rec757323946 .t396__artboard {
+                    position: fixed;
+                    width: 100%;
+                    left: 0;
+                    top: 0;
+                    z-index: 990;
+                }
+
+                #rec757323946 .t396__artboard {
+                    height: 80px;
+                    background-color: #fffaf1;
+                    overflow: visible;
+                }
+
+                #rec757323946 .t396__filter {
+                    height: 80px;
+                }
+
+                #rec757323946 .t396__carrier {
+                    height: 80px;
+                    background-position: center center;
+                    background-attachment: scroll;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757323946 .t396__artboard,#rec757323946 .t396__filter,#rec757323946 .t396__carrier {
+                    }
+
+                    #rec757323946 .t396__filter {
+                    }
+
+                    #rec757323946 .t396__carrier {
+                        background-attachment: scroll;
+                    }
+                }
+
+                @media screen and (max-width: 1049px) {
+                    #rec757323946 .t396__artboard,#rec757323946 .t396__filter,#rec757323946 .t396__carrier {
+                    }
+
+                    #rec757323946 .t396__filter {
+                    }
+
+                    #rec757323946 .t396__carrier {
+                        background-attachment: scroll;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec757323946 .t396__artboard,#rec757323946 .t396__filter,#rec757323946 .t396__carrier {
+                    }
+
+                    #rec757323946 .t396__filter {
+                    }
+
+                    #rec757323946 .t396__carrier {
+                        background-attachment: scroll;
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec757323946 .t396__artboard,#rec757323946 .t396__filter,#rec757323946 .t396__carrier {
+                        height:60px;
+                    }
+
+                    #rec757323946 .t396__filter {
+                    }
+
+                    #rec757323946 .t396__carrier {
+                        background-attachment: scroll;
+                    }
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717331695708"] {
+                    z-index: 2;
+                    top: 0px;
+                    left: 0px;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717331695708"] .tn-atom {
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid ;
+                    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
+                }
+
+                @media screen and (max-width: 1199px) {
+                }
+
+                @media screen and (max-width: 1049px) {
+                }
+
+                @media screen and (max-width: 639px) {
+                }
+
+                @media screen and (max-width: 479px) {
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717331236999"] {
+                    z-index: 3;
+                    top: calc(40px - 0px + 1px);
+                    left: 40px;
+                    width: 281px;
+                    height: auto;
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717331236999"] .tn-atom {
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717331236999"] {
+                        top:calc(40px - 0px + 1px);
+                        left: 30px;
+                        width: 241px;
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 1049px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717331236999"] {
+                        top:calc(40px - 0px + 1px);
+                        left: 20px;
+                        width: 318px;
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717331236999"] {
+                        top:calc(40px - 0px + 0px);
+                        left: 12px;
+                        width: 193px;
+                        height: auto;
+                    }
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717331319639"] {
+                    color: #000000;
+                    z-index: 4;
+                    top: calc(40px - 0px + 0px);
+                    left: calc(100% - 76px + -884px);
+                    width: 76px;
+                    height: auto;
+                }
+
+                @media (min-width: 1200px) {
+                    #rec757323946 .tn-elem.t396__elem--anim-hidden[data-elem-id="1717331319639"] {
+                        opacity:0;
+                    }
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717331319639"] .tn-atom {
+                    color: #000000;
+                    font-size: 18px;
+                    font-family: 'Geologica',Arial,sans-serif;
+                    line-height: 1.55;
+                    font-weight: 500;
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717331319639"] {
+                        top:calc(40px - 0px + 1px);
+                        left: calc(100% - 76px + -730px);
+                        height: auto;
+                    }
+
+                    #rec757323946 .tn-elem[data-elem-id="1717331319639"] .tn-atom {
+                        font-size: 16px;
+                    }
+                }
+
+                @media screen and (max-width: 1049px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717331319639"] {
+                        top:calc(40px - 0px + -104px);
+                        left: calc(100% - 76px + -474px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                }
+
+                @media screen and (max-width: 479px) {
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717331339535"] {
+                    color: #000000;
+                    z-index: 5;
+                    top: calc(40px - 0px + 0px);
+                    left: calc(100% - 105px + -721px);
+                    width: 105px;
+                    height: auto;
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717331339535"] .tn-atom {
+                    color: #000000;
+                    font-size: 18px;
+                    font-family: 'Geologica',Arial,sans-serif;
+                    line-height: 1.55;
+                    font-weight: 500;
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717331339535"] {
+                        top:calc(40px - 0px + 1px);
+                        left: calc(100% - 105px + -603px);
+                        width: 93px;
+                        height: auto;
+                    }
+
+                    #rec757323946 .tn-elem[data-elem-id="1717331339535"] .tn-atom {
+                        font-size: 16px;
+                    }
+                }
+
+                @media screen and (max-width: 1049px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717331339535"] {
+                        top:calc(40px - 0px + -104px);
+                        left: calc(100% - 105px + -347px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                }
+
+                @media screen and (max-width: 479px) {
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717331359927"] {
+                    color: #000000;
+                    z-index: 6;
+                    top: calc(40px - 0px + 0px);
+                    left: calc(100% - 65px + -637px);
+                    width: 65px;
+                    height: auto;
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717331359927"] .tn-atom {
+                    color: #000000;
+                    font-size: 18px;
+                    font-family: 'Geologica',Arial,sans-serif;
+                    line-height: 1.55;
+                    font-weight: 500;
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717331359927"] {
+                        top:calc(40px - 0px + 1px);
+                        left: calc(100% - 65px + -527px);
+                        height: auto;
+                    }
+
+                    #rec757323946 .tn-elem[data-elem-id="1717331359927"] .tn-atom {
+                        font-size: 16px;
+                    }
+                }
+
+                @media screen and (max-width: 1049px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717331359927"] {
+                        top:calc(40px - 0px + -104px);
+                        left: calc(100% - 65px + -271px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                }
+
+                @media screen and (max-width: 479px) {
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717332024090"] {
+                    color: #000000;
+                    z-index: 7;
+                    top: calc(40px - 0px + 0px);
+                    left: calc(100% - 206px + -356px);
+                    width: 206px;
+                    height: auto;
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717332024090"] .tn-atom {
+                    color: #000000;
+                    font-size: 18px;
+                    font-family: 'Geologica',Arial,sans-serif;
+                    line-height: 1.55;
+                    font-weight: 500;
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717332024090"] {
+                        top:calc(40px - 0px + 1px);
+                        left: calc(100% - 206px + -297px);
+                        width: 179px;
+                        height: auto;
+                    }
+
+                    #rec757323946 .tn-elem[data-elem-id="1717332024090"] .tn-atom {
+                        font-size: 16px;
+                    }
+                }
+
+                @media screen and (max-width: 1049px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717332024090"] {
+                        top:calc(40px - 0px + -104px);
+                        left: calc(100% - 206px + -41px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                }
+
+                @media screen and (max-width: 479px) {
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717332088986"] {
+                    color: #000000;
+                    z-index: 8;
+                    top: calc(40px - 0px + 0px);
+                    left: calc(100% - 73px + -264px);
+                    width: 73px;
+                    height: auto;
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717332088986"] .tn-atom {
+                    color: #000000;
+                    font-size: 18px;
+                    font-family: 'Geologica',Arial,sans-serif;
+                    line-height: 1.55;
+                    font-weight: 500;
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717332088986"] {
+                        top:calc(40px - 0px + 1px);
+                        left: calc(100% - 73px + -213px);
+                        height: auto;
+                    }
+
+                    #rec757323946 .tn-elem[data-elem-id="1717332088986"] .tn-atom {
+                        font-size: 16px;
+                    }
+                }
+
+                @media screen and (max-width: 1049px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717332088986"] {
+                        top:calc(40px - 0px + -104px);
+                        left: calc(100% - 73px + 43px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                }
+
+                @media screen and (max-width: 479px) {
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717332103154"] {
+                    color: #000000;
+                    z-index: 9;
+                    top: calc(40px - 0px + 0px);
+                    left: calc(100% - 43px + -180px);
+                    width: 43px;
+                    height: auto;
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717332103154"] .tn-atom {
+                    color: #000000;
+                    font-size: 18px;
+                    font-family: 'Geologica',Arial,sans-serif;
+                    line-height: 1.55;
+                    font-weight: 500;
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717332103154"] {
+                        top:calc(40px - 0px + 1px);
+                        left: calc(100% - 43px + -150px);
+                        height: auto;
+                    }
+
+                    #rec757323946 .tn-elem[data-elem-id="1717332103154"] .tn-atom {
+                        font-size: 16px;
+                    }
+                }
+
+                @media screen and (max-width: 1049px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717332103154"] {
+                        top:calc(40px - 0px + -104px);
+                        left: calc(100% - 43px + 106px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                }
+
+                @media screen and (max-width: 479px) {
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717333131730"] {
+                    z-index: 10;
+                    top: -93px;
+                    left: calc(50% - 600px + 32px);
+                    width: 33px;
+                    height: auto;
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717333131730"] .tn-atom {
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                }
+
+                @media screen and (max-width: 1049px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717333131730"] {
+                        top:1px;
+                        left: calc(50% - 320px + -16px);
+                        width: 30px;
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717333131730"] {
+                        top:1px;
+                        left: calc(50% - 160px + -16px);
+                        width: 25px;
+                        height: auto;
+                    }
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717338075851"] {
+                    z-index: 11;
+                    top: 54px;
+                    left: calc(100% - 120px + -844px);
+                    width: 120px;
+                    height: auto;
+                }
+
+                #rec757323946 .tn-elem.t396__elem--anim-hidden[data-elem-id="1717338075851"] {
+                    opacity: 0;
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717338075851"] .tn-atom {
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717338075851"] {
+                        top:51px;
+                        left: calc(100% - 120px + -707px);
+                        width: 100px;
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 1049px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717338075851"] {
+                        top:-36px;
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                }
+
+                @media screen and (max-width: 479px) {
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717338345083"] {
+                    z-index: 12;
+                    top: 54px;
+                    left: calc(100% - 110px + -717px);
+                    width: 110px;
+                    height: auto;
+                }
+
+                #rec757323946 .tn-elem.t396__elem--anim-hidden[data-elem-id="1717338345083"] {
+                    opacity: 0;
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717338345083"] .tn-atom {
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717338345083"] {
+                        top:51px;
+                        left: calc(100% - 110px + -599px);
+                        width: 100px;
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 1049px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717338345083"] {
+                        top:-36px;
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                }
+
+                @media screen and (max-width: 479px) {
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717338361294"] {
+                    z-index: 13;
+                    top: 54px;
+                    left: calc(100% - 120px + -582px);
+                    width: 120px;
+                    height: auto;
+                }
+
+                #rec757323946 .tn-elem.t396__elem--anim-hidden[data-elem-id="1717338361294"] {
+                    opacity: 0;
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717338361294"] .tn-atom {
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717338361294"] {
+                        top:51px;
+                        left: calc(100% - 120px + -484px);
+                        width: 110px;
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 1049px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717338361294"] {
+                        top:-36px;
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                }
+
+                @media screen and (max-width: 479px) {
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717338370626"] {
+                    z-index: 14;
+                    top: 54px;
+                    left: calc(100% - 200px + -362px);
+                    width: 200px;
+                    height: auto;
+                }
+
+                #rec757323946 .tn-elem.t396__elem--anim-hidden[data-elem-id="1717338370626"] {
+                    opacity: 0;
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717338370626"] .tn-atom {
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717338370626"] {
+                        top:51px;
+                        left: calc(100% - 200px + -300px);
+                        width: 180px;
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 1049px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717338370626"] {
+                        top:-36px;
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                }
+
+                @media screen and (max-width: 479px) {
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717338396109"] {
+                    z-index: 15;
+                    top: 54px;
+                    left: calc(100% - 100px + -240px);
+                    width: 100px;
+                    height: auto;
+                }
+
+                #rec757323946 .tn-elem.t396__elem--anim-hidden[data-elem-id="1717338396109"] {
+                    opacity: 0;
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717338396109"] .tn-atom {
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717338396109"] {
+                        top:51px;
+                        left: calc(100% - 100px + -197px);
+                        width: 100px;
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 1049px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717338396109"] {
+                        top:-36px;
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                }
+
+                @media screen and (max-width: 479px) {
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717338417119"] {
+                    z-index: 16;
+                    top: 54px;
+                    left: calc(100% - 120px + -106px);
+                    width: 120px;
+                    height: auto;
+                }
+
+                #rec757323946 .tn-elem.t396__elem--anim-hidden[data-elem-id="1717338417119"] {
+                    opacity: 0;
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717338417119"] .tn-atom {
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717338417119"] {
+                        top:51px;
+                        left: calc(100% - 120px + -94px);
+                        width: 100px;
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 1049px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717338417119"] {
+                        top:-36px;
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                }
+
+                @media screen and (max-width: 479px) {
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717419826203"] {
+                    z-index: 17;
+                    top: 23px;
+                    left: calc(100% - 35px + -36px);
+                    width: 35px;
+                    height: auto;
+                }
+
+                @media (min-width: 1200px) {
+                    #rec757323946 .tn-elem.t396__elem--anim-hidden[data-elem-id="1717419826203"] {
+                        opacity:0;
+                    }
+                }
+
+                #rec757323946 .tn-elem[data-elem-id="1717419826203"] .tn-atom {
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717419826203"] {
+                        top:28px;
+                        left: calc(100% - 35px + -40px);
+                        width: 25px;
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 1049px) {
+                    #rec757323946 .tn-elem[data-elem-id="1717419826203"] {
+                        top:-128px;
+                        left: calc(100% - 35px + -25px);
+                        width: 34px;
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                }
+
+                @media screen and (max-width: 479px) {
+                }
+            </style>
+            <div class='t396'>
+                <div class="t396__artboard" data-artboard-recid="757323946" data-artboard-screens="320,480,640,1050,1200" data-artboard-height="80" data-artboard-valign="center" data-artboard-upscale="grid" data-artboard-ovrflw="visible" data-artboard-pos="fixed" data-artboard-height-res-320="60">
+                    <div class="t396__carrier" data-artboard-recid="757323946"></div>
+                    <div class="t396__filter" data-artboard-recid="757323946"></div>
+                    <div class='t396__elem tn-elem tn-elem__7573239461717331695708' data-elem-id='1717331695708' data-elem-type='shape' data-field-top-value="0" data-field-left-value="0" data-field-height-value="100" data-field-width-value="100" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="window" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="%" data-field-widthunits-value="%">
+                        <div class='tn-atom'></div>
+                    </div>
+                    <div class='t396__elem tn-elem tn-elem__7573239461717331236999' data-elem-id='1717331236999' data-elem-type='image' data-field-top-value="1" data-field-left-value="40" data-field-width-value="281" data-field-axisy-value="center" data-field-axisx-value="left" data-field-container-value="window" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-field-filewidth-value="5726" data-field-fileheight-value="594" data-field-lazyoff-value="y" data-field-top-res-320-value="0" data-field-left-res-320-value="12" data-field-width-res-320-value="193" data-field-top-res-640-value="1" data-field-left-res-640-value="20" data-field-width-res-640-value="318" data-field-top-res-1050-value="1" data-field-left-res-1050-value="30" data-field-width-res-1050-value="241">
+                        <a class='tn-atom' href="/">
+                            <img class='tn-atom__img' src='https://static.tildacdn.com/tild6362-3461-4034-b537-396630636532/logo_1.png' alt='' imgfield='tn_img_1717331236999'/>
+                        </a>
+                    </div>
+                    <div class='t396__elem tn-elem tn-elem__7573239461717331319639 ' data-elem-id='1717331319639' data-elem-type='text' data-field-top-value="0" data-field-left-value="-884" data-field-width-value="76" data-field-axisy-value="center" data-field-axisx-value="right" data-field-container-value="window" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-sbs-event="hover" data-animate-sbs-opts="[{'mx':0,'my':0,'sx':1,'sy':1,'op':1,'ro':0,'ti':0,'ea':'0','dt':0}]" data-field-top-res-640-value="-104" data-field-left-res-640-value="-474" data-field-top-res-1050-value="1" data-field-left-res-1050-value="-730">
+                        <div class='tn-atom'>
+                            <a href="/" style="color: inherit">ФЕСТИВАЛЬ</a>
+                        </div>
+                    </div>
+                    <div class='t396__elem tn-elem tn-elem__7573239461717331339535' data-elem-id='1717331339535' data-elem-type='text' data-field-top-value="0" data-field-left-value="-721" data-field-width-value="105" data-field-axisy-value="center" data-field-axisx-value="right" data-field-container-value="window" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-field-top-res-640-value="-104" data-field-left-res-640-value="-347" data-field-top-res-1050-value="1" data-field-left-res-1050-value="-603" data-field-width-res-1050-value="93">
+                        <div class='tn-atom'>
+                            <a href="index" style="color: inherit">О ПРОЕКТЕ</a>
+                        </div>
+                    </div>
+                    <div class='t396__elem tn-elem tn-elem__7573239461717331359927' data-elem-id='1717331359927' data-elem-type='text' data-field-top-value="0" data-field-left-value="-637" data-field-width-value="65" data-field-axisy-value="center" data-field-axisx-value="right" data-field-container-value="window" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-field-top-res-640-value="-104" data-field-left-res-640-value="-271" data-field-top-res-1050-value="1" data-field-left-res-1050-value="-527">
+                        <div class='tn-atom'>
+                            <a href="index" style="color: inherit">ПРОГРАММА</a>
+                        </div>
+                    </div>
+                    <div class='t396__elem tn-elem tn-elem__7573239461717332024090' data-elem-id='1717332024090' data-elem-type='text' data-field-top-value="0" data-field-left-value="-356" data-field-width-value="206" data-field-axisy-value="center" data-field-axisx-value="right" data-field-container-value="window" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-field-top-res-640-value="-104" data-field-left-res-640-value="-41" data-field-top-res-1050-value="1" data-field-left-res-1050-value="-297" data-field-width-res-1050-value="179">
+                        <div class='tn-atom'>
+                            <a href="index" style="color: inherit">ОНЛАЙН-КИНОТЕАТР</a>
+                        </div>
+                    </div>
+                    <div class='t396__elem tn-elem tn-elem__7573239461717332088986' data-elem-id='1717332088986' data-elem-type='text' data-field-top-value="0" data-field-left-value="-264" data-field-width-value="73" data-field-axisy-value="center" data-field-axisx-value="right" data-field-container-value="window" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-field-top-res-640-value="-104" data-field-left-res-640-value="43" data-field-top-res-1050-value="1" data-field-left-res-1050-value="-213">
+                        <div class='tn-atom'>
+                            <a href="index" style="color: inherit">НОВОСТИ</a>
+                        </div>
+                    </div>
+                    <div class='t396__elem tn-elem tn-elem__7573239461717332103154' data-elem-id='1717332103154' data-elem-type='text' data-field-top-value="0" data-field-left-value="-180" data-field-width-value="43" data-field-axisy-value="center" data-field-axisx-value="right" data-field-container-value="window" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-field-top-res-640-value="-104" data-field-left-res-640-value="106" data-field-top-res-1050-value="1" data-field-left-res-1050-value="-150">
+                        <div class='tn-atom'>
+                            <a href="index" style="color: inherit">ПАРТНЕРАМ</a>
+                        </div>
+                    </div>
+                    <div class='t396__elem tn-elem tn-elem__7573239461717333131730' data-elem-id='1717333131730' data-elem-type='image' data-field-top-value="-93" data-field-left-value="32" data-field-width-value="33" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-field-filewidth-value="1680" data-field-fileheight-value="1405" data-field-lazyoff-value="y" data-field-top-res-320-value="1" data-field-left-res-320-value="-16" data-field-width-res-320-value="25" data-field-top-res-640-value="1" data-field-left-res-640-value="-16" data-field-width-res-640-value="30" data-field-axisy-res-640-value="center" data-field-axisx-res-640-value="right" data-field-container-res-640-value="window">
+                        <a class='tn-atom' href="login">
+                            <img class='tn-atom__img' src='https://static.tildacdn.com/tild3331-3137-4239-b463-336239633062/vk3.png' alt='' imgfield='tn_img_1717333131730'/>
+                        </a>
+                    </div>
+                    <div class='t396__elem tn-elem tn-elem__7573239461717338075851 t396__elem--anim-hidden' data-elem-id='1717338075851' data-elem-type='image' data-field-top-value="54" data-field-left-value="-844" data-field-width-value="120" data-field-axisy-value="top" data-field-axisx-value="right" data-field-container-value="window" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-mobile="y" data-animate-sbs-event="hover" data-animate-sbs-trgels="1717331319639" data-animate-sbs-opts="[{'mx':0,'my':0,'sx':1,'sy':1,'op':1,'ro':0,'ti':0,'ea':'0','dt':0},{'mx':0,'my':0,'sx':1,'sy':1,'op':0,'ro':0,'ti':0,'ea':'0','dt':0},{'mx':0,'my':0,'sx':1,'sy':1,'op':1,'ro':0,'ti':300,'ea':'','dt':0}]" data-field-filewidth-value="258" data-field-fileheight-value="4" data-field-top-res-640-value="-36" data-field-top-res-1050-value="51" data-field-left-res-1050-value="-707" data-field-width-res-1050-value="100">
+                        <div class='tn-atom'>
+                            <img class='tn-atom__img t-img' data-original='https://static.tildacdn.com/tild3235-3263-4236-a536-366431383663/svg_1717338074731.svg' alt='' imgfield='tn_img_1717338075851'/>
+                        </div>
+                    </div>
+                    <div class='t396__elem tn-elem tn-elem__7573239461717338345083 t396__elem--anim-hidden' data-elem-id='1717338345083' data-elem-type='image' data-field-top-value="54" data-field-left-value="-717" data-field-width-value="110" data-field-axisy-value="top" data-field-axisx-value="right" data-field-container-value="window" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-mobile="y" data-animate-sbs-event="hover" data-animate-sbs-trgels="1717331339535" data-animate-sbs-opts="[{'mx':0,'my':0,'sx':1,'sy':1,'op':1,'ro':0,'ti':0,'ea':'0','dt':0},{'mx':0,'my':0,'sx':1,'sy':1,'op':0,'ro':0,'ti':0,'ea':'0','dt':0},{'mx':0,'my':0,'sx':1,'sy':1,'op':1,'ro':0,'ti':300,'ea':'','dt':0}]" data-field-filewidth-value="258" data-field-fileheight-value="4" data-field-top-res-640-value="-36" data-field-top-res-1050-value="51" data-field-left-res-1050-value="-599" data-field-width-res-1050-value="100">
+                        <div class='tn-atom'>
+                            <img class='tn-atom__img t-img' data-original='https://static.tildacdn.com/tild3235-3263-4236-a536-366431383663/svg_1717338074731.svg' alt='' imgfield='tn_img_1717338345083'/>
+                        </div>
+                    </div>
+                    <div class='t396__elem tn-elem tn-elem__7573239461717338361294 t396__elem--anim-hidden' data-elem-id='1717338361294' data-elem-type='image' data-field-top-value="54" data-field-left-value="-582" data-field-width-value="120" data-field-axisy-value="top" data-field-axisx-value="right" data-field-container-value="window" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-mobile="y" data-animate-sbs-event="hover" data-animate-sbs-trgels="1717331359927" data-animate-sbs-opts="[{'mx':0,'my':0,'sx':1,'sy':1,'op':1,'ro':0,'ti':0,'ea':'0','dt':0},{'mx':0,'my':0,'sx':1,'sy':1,'op':0,'ro':0,'ti':0,'ea':'0','dt':0},{'mx':0,'my':0,'sx':1,'sy':1,'op':1,'ro':0,'ti':300,'ea':'','dt':0}]" data-field-filewidth-value="258" data-field-fileheight-value="4" data-field-top-res-640-value="-36" data-field-top-res-1050-value="51" data-field-left-res-1050-value="-484" data-field-width-res-1050-value="110">
+                        <div class='tn-atom'>
+                            <img class='tn-atom__img t-img' data-original='https://static.tildacdn.com/tild3235-3263-4236-a536-366431383663/svg_1717338074731.svg' alt='' imgfield='tn_img_1717338361294'/>
+                        </div>
+                    </div>
+                    <div class='t396__elem tn-elem tn-elem__7573239461717338370626 t396__elem--anim-hidden' data-elem-id='1717338370626' data-elem-type='image' data-field-top-value="54" data-field-left-value="-362" data-field-width-value="200" data-field-axisy-value="top" data-field-axisx-value="right" data-field-container-value="window" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-mobile="y" data-animate-sbs-event="hover" data-animate-sbs-trgels="1717332024090" data-animate-sbs-opts="[{'mx':0,'my':0,'sx':1,'sy':1,'op':1,'ro':0,'ti':0,'ea':'0','dt':0},{'mx':0,'my':0,'sx':1,'sy':1,'op':0,'ro':0,'ti':0,'ea':'0','dt':0},{'mx':0,'my':0,'sx':1,'sy':1,'op':1,'ro':0,'ti':300,'ea':'','dt':0}]" data-field-filewidth-value="258" data-field-fileheight-value="4" data-field-top-res-640-value="-36" data-field-top-res-1050-value="51" data-field-left-res-1050-value="-300" data-field-width-res-1050-value="180">
+                        <div class='tn-atom'>
+                            <img class='tn-atom__img t-img' data-original='https://static.tildacdn.com/tild3235-3263-4236-a536-366431383663/svg_1717338074731.svg' alt='' imgfield='tn_img_1717338370626'/>
+                        </div>
+                    </div>
+                    <div class='t396__elem tn-elem tn-elem__7573239461717338396109 t396__elem--anim-hidden' data-elem-id='1717338396109' data-elem-type='image' data-field-top-value="54" data-field-left-value="-240" data-field-width-value="100" data-field-axisy-value="top" data-field-axisx-value="right" data-field-container-value="window" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-mobile="y" data-animate-sbs-event="hover" data-animate-sbs-trgels="1717332088986" data-animate-sbs-opts="[{'mx':0,'my':0,'sx':1,'sy':1,'op':1,'ro':0,'ti':0,'ea':'0','dt':0},{'mx':0,'my':0,'sx':1,'sy':1,'op':0,'ro':0,'ti':0,'ea':'0','dt':0},{'mx':0,'my':0,'sx':1,'sy':1,'op':1,'ro':0,'ti':300,'ea':'','dt':0}]" data-field-filewidth-value="258" data-field-fileheight-value="4" data-field-top-res-640-value="-36" data-field-top-res-1050-value="51" data-field-left-res-1050-value="-197" data-field-width-res-1050-value="100">
+                        <div class='tn-atom'>
+                            <img class='tn-atom__img t-img' data-original='https://static.tildacdn.com/tild3235-3263-4236-a536-366431383663/svg_1717338074731.svg' alt='' imgfield='tn_img_1717338396109'/>
+                        </div>
+                    </div>
+                    <div class='t396__elem tn-elem tn-elem__7573239461717338417119 t396__elem--anim-hidden' data-elem-id='1717338417119' data-elem-type='image' data-field-top-value="54" data-field-left-value="-106" data-field-width-value="120" data-field-axisy-value="top" data-field-axisx-value="right" data-field-container-value="window" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-mobile="y" data-animate-sbs-event="hover" data-animate-sbs-trgels="1717332103154" data-animate-sbs-opts="[{'mx':0,'my':0,'sx':1,'sy':1,'op':1,'ro':0,'ti':0,'ea':'0','dt':0},{'mx':0,'my':0,'sx':1,'sy':1,'op':0,'ro':0,'ti':0,'ea':'0','dt':0},{'mx':0,'my':0,'sx':1,'sy':1,'op':1,'ro':0,'ti':300,'ea':'','dt':0}]" data-field-filewidth-value="258" data-field-fileheight-value="4" data-field-top-res-640-value="-36" data-field-top-res-1050-value="51" data-field-left-res-1050-value="-94" data-field-width-res-1050-value="100">
+                        <div class='tn-atom'>
+                            <img class='tn-atom__img t-img' data-original='https://static.tildacdn.com/tild3235-3263-4236-a536-366431383663/svg_1717338074731.svg' alt='' imgfield='tn_img_1717338417119'/>
+                        </div>
+                    </div>
+                    <div class='t396__elem tn-elem tn-elem__7573239461717419826203 ' data-elem-id='1717419826203' data-elem-type='image' data-field-top-value="23" data-field-left-value="-36" data-field-width-value="35" data-field-axisy-value="top" data-field-axisx-value="right" data-field-container-value="window" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-animate-sbs-event="hover" data-animate-sbs-opts="[{'mx':0,'my':0,'sx':1,'sy':1,'op':1,'ro':0,'ti':0,'ea':'0','dt':0},{'mx':0,'my':-3,'sx':1,'sy':1,'op':1,'ro':0,'ti':300,'ea':'0','dt':0}]" data-field-filewidth-value="625" data-field-fileheight-value="625" data-field-lazyoff-value="y" data-field-top-res-640-value="-128" data-field-left-res-640-value="-25" data-field-width-res-640-value="34" data-field-top-res-1050-value="28" data-field-left-res-1050-value="-40" data-field-width-res-1050-value="25">
+                        <a class='tn-atom' href="login" target="_blank">
+                            <img class='tn-atom__img' src='https://static.tildacdn.com/tild3331-3137-4239-b463-336239633062/vk3.png' alt='' imgfield='tn_img_1717419826203'/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <script>
+                t_onReady(function() {
+                    t_onFuncLoad('t396_init', function() {
+                        t396_init('757323946');
+                    });
+                });
+            </script>
+            <!-- /T396 -->
+        </div>
+        <div id="rec757324171" class="r t-rec t-rec_pt_0 t-rec_pb_0" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="450">
+            <!-- t450 -->
+            <div id="nav757324171marker"></div>
+            <div class="t450__overlay">
+                <div class="t450__overlay_bg" style="background-color:#2c2f27; "></div>
+            </div>
+            <div id="nav757324171" class="t450 " data-tooltip-hook="#menuopen" style="max-width: 300px;background-color: #2c2f27;">
+                <button type="button" class="t450__close-button t450__close t450_opened " style="background-color: #2c2f27;" aria-label="Закрыть меню">
+                    <div class="t450__close_icon">
+                        <span style="background-color:#fffaf1;"></span>
+                        <span style="background-color:#fffaf1;"></span>
+                        <span style="background-color:#fffaf1;"></span>
+                        <span style="background-color:#fffaf1;"></span>
+                    </div>
+                </button>
+                <div class="t450__container t-align_center">
+                    <div class="t450__top">
+                        <nav class="t450__menu">
+                            <ul role="list" class="t450__list t-menu__list">
+                                <li class="t450__list_item">
+                                    <a class="t-menu__link-item " href="index" data-menu-submenu-hook="" data-menu-item-number="1">ФЕСТИВАЛЬ
+                                    </a>
+                                </li>
+                                <li class="t450__list_item">
+                                    <a class="t-menu__link-item " href="index" data-menu-submenu-hook="" data-menu-item-number="2">О ПРОЕКТЕ
+                                    </a>
+                                </li>
+                                <li class="t450__list_item">
+                                    <a class="t-menu__link-item " href="index" data-menu-submenu-hook="" data-menu-item-number="3">ПРОГРАММА
+                                    </a>
+                                </li>
+                                <li class="t450__list_item">
+                                    <a class="t-menu__link-item " href="index" data-menu-submenu-hook="" data-menu-item-number="4">ОНЛАЙН-КИНОТЕАТР
+                                    </a>
+                                </li>
+                                <li class="t450__list_item">
+                                    <a class="t-menu__link-item " href="index" data-menu-submenu-hook="" data-menu-item-number="5">НОВОСТИ
+                                    </a>
+                                </li>
+                                <li class="t450__list_item">
+                                    <a class="t-menu__link-item " href="index" data-menu-submenu-hook="" data-menu-item-number="6">ПАРТНЕРАМ
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="t450__rightside">
+                        <div class="t450__rightcontainer">
+                            <div class="t450__right_social_links">
+                                <div class="t-sociallinks">
+                                    <ul role="list" class="t-sociallinks__wrapper" aria-label="Соц. сети">
+                                        <!-- new soclinks -->
+                                        <li class="t-sociallinks__item t-sociallinks__item_website">
+                                            <a href="index" target="_blank" rel="nofollow" aria-label="VK" title="VK" style="width: 30px; height: 30px;">
+                                                <img src=https://static.tildacdn.com/tild6331-6134-4235-b365-356637623235/vk3.png alt="website icon" class="t-sociallinks__customimg" style="width:30px; height:30px; vertical-align: baseline; object-fit: contain; object-position: center;">
+                                            </a>
+                                        </li>
+                                        <!-- /new soclinks -->
+                                        <script>
+                                            t_onReady(function() {
+                                                var rec = document.getElementById('rec757324171');
+                                                if (!rec)
+                                                    return;
+                                                var customImageList = rec.querySelectorAll('img.t-sociallinks__customimg');
+                                                Array.prototype.forEach.call(customImageList, function(img) {
+                                                    var imgURL = img.getAttribute('src');
+                                                    if (imgURL.indexOf('/lib__tildaicon__') !== -1 || imgURL.indexOf('/lib/tildaicon/') !== -1 || imgURL.indexOf('/lib/icons/tilda') !== -1) {
+                                                        var xhr = new XMLHttpRequest();
+                                                        xhr.open('GET', imgURL);
+                                                        xhr.responseType = 'document';
+                                                        xhr.onload = function() {
+                                                            if (xhr.status >= 200 && xhr.status < 400) {
+                                                                var response = xhr.response;
+                                                                var svg = response.querySelector('svg');
+                                                                svg.style.width = '30px';
+                                                                svg.style.height = '30px';
+                                                                var figureList = svg.querySelectorAll('*:not(g):not(title):not(desc)');
+                                                                for (var j = 0; j < figureList.length; j++) {
+                                                                    figureList[j].style.fill = '#ffffff';
+                                                                }
+                                                                ;if (img.parentNode) {
+                                                                    img.parentNode.append(svg);
+                                                                }
+                                                                img.remove();
+                                                            } else {
+                                                                img.style.visibility = 'visible';
+                                                            }
+                                                        }
+                                                        xhr.onerror = function(error) {
+                                                            img.style.visibility = 'visible';
+                                                        }
+                                                        xhr.send();
+                                                    }
+                                                });
+                                            });
+                                        </script>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                t_onReady(function() {
+                    var rec = document.querySelector('#rec757324171');
+                    if (!rec)
+                        return;
+                    rec.setAttribute('data-animationappear', 'off');
+                    rec.style.opacity = 1;
+                    t_onFuncLoad('t450_initMenu', function() {
+                        t450_initMenu('757324171');
+                    });
+                });
+            </script>
+            
+            <style>
+                #rec757324171 a.t-menu__link-item {
+                    font-size: 18px;
+                    color: #fffaf1;
+                    font-weight: 500;
+                    font-family: 'Geologica';
+                    text-transform: uppercase;
+                }
+            </style>
+        </div>
+    </header>
+    <div id="rec755346132" class="r t-rec t-rec_pt_135 t-rec_pb_60" style="padding-top:135px;padding-bottom:60px;" data-animationappear="off" data-record-type="897">
+        <!-- Header Section -->
+        <div class="t-section__container t-container t-container_flex">
+            <div class="t-col t-col_12">
+                <div class="t-section__title t-title t-title_xs t-align_center t-margin_auto" field="btitle">
+                    <div style="font-size: 36px;" data-customstyle="yes">
+                        <span style="font-weight: 500;">ОНЛАЙН-КИНОТЕАТР</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Buttons for switching between sections (Movies, Lectures, All) -->
+        <div class="js-feed-parts-select-container t-col t-col_12">
+            <ul class="t-feed__parts-switch-wrapper t-align_center" aria-label="Разделы потока">
+                <li class="js-feed-parts-switcher t-feed__parts-switch-btn t-feed__parts-switch-btn_bg t-name t-name_xs t-menu__link-item t-active" data-feedpart-title="" data-feedpart-uid="549153956991">
+                    <a href="index" class="t-feed__link">Все</a>
+                </li>
+                <li class="js-feed-parts-switcher t-feed__parts-switch-btn t-feed__parts-switch-btn_bg t-name t-name_xs t-menu__link-item " data-feedpart-title="Фильмы" data-feedpart-uid="648635726891">
+                    <a href="index_movies" class="t-feed__link">Фильмы</a>
+                </li>
+                <li class="js-feed-parts-switcher t-feed__parts-switch-btn t-feed__parts-switch-btn_bg t-name t-name_xs t-menu__link-item" data-feedpart-title="Лекции" data-feedpart-uid="487674395131">
+                    <a href="index_lectures" class="t-feed__link">Лекции</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Grid Container for Movies -->
+        <div class="js-feed-container t-feed__container t897__container t-feed__container_mobile-grid">
+            <div class="t-feed__container t897__container">
+                <!-- Movies Grid -->
+                <div class="content-grid" >
+                    {{MOVIES_CARDS}}
+                    {{LECTURES_CARDS}}<!-- Movies cards will be inserted here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Styles for Movie Grid -->
+    <style type="text/css">
+        .t-feed__parts-switch-wrapper {
+            display: flex; /* Use flexbox for alignment */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically if needed */
+            gap: 5px; /* Space between buttons */
+            list-style: none; /* Remove default list styling */
+            padding: 0;
+            margin: 20px 0; /* Add some margin around buttons */
+        }
+
+        .grid-item {
+            flex: 1 1 calc(33.333% - 20px);
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .grid-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .grid-item h3 {
+            margin: 10px 0 5px;
+            font-size: 18px;
+        }
+
+        .grid-item p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        /* Styling for active button */
+        #rec755346132 .t-feed__parts-switch-btn {
+            border: 2px solid #2f2c27;
+            border-radius: 30px;
+        }
+
+        #rec755346132 .t-feed__parts-switch-btn span,
+        #rec755346132 .t-feed__parts-switch-btn a {
+            color: #2f2c27;
+            padding: 6px 18px;
+            border-radius: 30px;
+        }
+
+        #rec755346132 .t-feed__parts-switch-btn.t-active {
+            background-color: #2f2c27;
+        }
+
+        #rec755346132 .t-feed__parts-switch-btn.t-active span,
+        #rec755346132 .t-feed__parts-switch-btn.t-active a {
+            opacity: 1 !important;
+            color: #fffaf1 !important;
+        }
+    </style>
+
+    <script type="text/javascript">
+        // JavaScript code to handle the functionality of the buttons (switching between sections)
+        document.querySelectorAll('.js-feed-parts-switcher').forEach(button => {
+            button.addEventListener('click', function() {
+                // Remove active class from all buttons
+                document.querySelectorAll('.js-feed-parts-switcher').forEach(btn => btn.classList.remove('t-active'));
+                // Add active class to clicked button
+                this.classList.add('t-active');
+                // You can add additional functionality here, like updating the grid content based on the selected section (Movies, Lectures, All)
+            });
+        });
+    </script>
+
+
+    <style type="text/css">
+            #rec755346132 .t-feed__parts-switch-btn {
+                border: 2px solid #2f2c27;
+                border-radius: 30px;
+            }
+
+            #rec755346132 .t-feed__parts-switch-btn span,#rec755346132 .t-feed__parts-switch-btn a {
+                color: #2f2c27;
+                padding: 6px 18px 6px;
+                border-radius: 30px;
+            }
+
+            #rec755346132 .t-feed__parts-switch-btn.t-active {
+                background-color: #2f2c27;
+            }
+
+            #rec755346132 .t-feed__parts-switch-btn.t-active span,#rec755346132 .t-feed__parts-switch-btn.t-active a {
+                opacity: 1 !important;
+                color: #fffaf1 !important;
+            }
+        </style>
+        <style type="text/css">
+            #rec755346132 .t-feed__post-popup__cover-wrapper .t-slds__bullet_active .t-slds__bullet_body,#rec755346132 .t-feed__post-popup__cover-wrapper .t-slds__bullet:hover .t-slds__bullet_body {
+                background-color: #222 !important;
+            }
+        </style>
+        <style type="text/css">
+            #rec755346132 .t-feed__post-popup__text-wrapper {
+                color: #fffaf1;
+            }
+
+            #rec755346132 .t-feed__post-popup__text-wrapper blockquote.t-redactor__quote {
+                border-left: 3px solid #fffaf1;
+            }
+        </style>
+        <style>
+            #rec755346132 .t-feed__post-title {
+                font-size: 20px;
+                font-weight: 400;
+            }
+
+            #rec755346132 .t-feed__post-descr {
+                font-size: 14px;
+                font-weight: 400;
+            }
+
+            #rec755346132 .t-feed__parts-switch-btn {
+                font-size: 16px;
+                color: #2f2c27;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+        </style>
+        <!-- news setup start -->
+        <script type="text/javascript">
+            t_onReady(function() {
+                var separator_optsObj = {
+                    height: '',
+                    color: '',
+                    opacity: '',
+                    hideSeparator: false
+                };
+                var popup_optsObj = {
+                    popupBgColor: '#2f2c27',
+                    overlayBgColorRgba: 'rgba(47,44,39,1)',
+                    closeText: '',
+                    iconColor: '#fffaf1',
+                    popupStat: '',
+                    titleColor: '#fffaf1',
+                    textColor: '#fffaf1',
+                    subtitleColor: '#fffaf1',
+                    datePos: 'aftertext',
+                    partsPos: 'aftertext',
+                    imagePos: 'aftertitle',
+                    inTwoColumns: false,
+                    zoom: false,
+                    styleRelevants: '',
+                    methodRelevants: 'random',
+                    titleRelevants: '',
+                    showRelevants: '',
+                    shareStyle: '',
+                    shareBg: '',
+                    isShare: false,
+                    shareServices: '',
+                    shareFBToken: '',
+                    showDate: false,
+                    bgSize: 'cover',
+                    titleFontFamily: '',
+                    descrFontFamily: '',
+                    subtitleFontFamily: ''
+                };
+                var arrowtop_optsObj = {
+                    isShow: false,
+                    style: '',
+                    color: '',
+                    bottom: '',
+                    left: '',
+                    right: ''
+                };
+                var parts_optsObj = {
+                    partsBgColor: '',
+                    partsBorderSize: '2px',
+                    partsBorderColor: '#2f2c27',
+                    align: 'center'
+                };
+                var gallery_optsObj = {
+                    control: '',
+                    arrowSize: '',
+                    arrowBorderSize: '',
+                    arrowColor: '',
+                    arrowColorHover: '',
+                    arrowBg: '',
+                    arrowBgHover: '',
+                    arrowBgOpacity: '',
+                    arrowBgOpacityHover: '',
+                    showBorder: '',
+                    dotsWidth: '',
+                    dotsBg: '',
+                    dotsActiveBg: '',
+                    dotsBorderSize: ''
+                };
+                var btnAllPosts_optsObj = {
+                    text: '',
+                    link: '',
+                    target: ''
+                };
+                var colWithBg_optsObj = {
+                    paddingSize: '',
+                    background: '',
+                    borderRadius: '',
+                    shadow: '',
+                    shadowSize: '',
+                    shadowOpacity: '',
+                    shadowHover: '',
+                    shadowSizeHover: '',
+                    shadowOpacityHover: '',
+                    shadowShiftyHover: ''
+                };
+                var options = {
+                    feeduid: '549153956991',
+                    previewmode: 'yes',
+                    align: 'left',
+                    amountOfPosts: '',
+                    reverse: 'desc',
+                    blocksInRow: '3',
+                    blocksClass: 't-feed__grid-col t-col t-col_4',
+                    blocksWidth: '360',
+                    colClass: '',
+                    prefixClass: '',
+                    vindent: '50px',
+                    dateFormat: '4',
+                    timeFormat: '',
+                    imageRatio: '56',
+                    hasOriginalAspectRatio: false,
+                    imageHeight: '',
+                    imageWidth: '',
+                    dateFilter: 'all',
+                    showPartAll: true,
+                    showImage: true,
+                    showShortDescr: true,
+                    showParts: false,
+                    showDate: false,
+                    hideFeedParts: false,
+                    parts_opts: parts_optsObj,
+                    btnsAlign: false,
+                    colWithBg: colWithBg_optsObj,
+                    separator: separator_optsObj,
+                    btnAllPosts: btnAllPosts_optsObj,
+                    popup_opts: popup_optsObj,
+                    arrowtop_opts: arrowtop_optsObj,
+                    gallery: gallery_optsObj,
+                    amountOfSymbols: '',
+                    bbtnStyle: 'color:#ffffff;background-color:#000000;border-radius:3px; -moz-border-radius:3px; -webkit-border-radius:3px;',
+                    btnStyle: 'color:#000000;border:1px solid #000000;background-color:#ffffff;border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;',
+                    btnTextColor: '#000000',
+                    btnType: '',
+                    btnSize: 'sm',
+                    btnText: '',
+                    btnReadMore: '',
+                    isHorizOnMob: false,
+                    itemsAnim: '',
+                    datePosPs: 'beforetitle',
+                    partsPosPs: 'beforetitle',
+                    imagePosPs: 'beforetitle',
+                    datePos: 'afterdescr',
+                    partsPos: 'onimage',
+                    imagePos: 'beforetitle'
+                };
+                t_onFuncLoad('t_feed_init', function() {
+                    t_feed_init('755346132', options);
+                });
+                var rec = document.getElementById('rec755346132');
+                if (!rec)
+                    return;
+                var allRecords = document.getElementById('allrecords');
+                if (!allRecords.getAttribute('data-tilda-mode') && (window.lazy === 'y' || allRecords.getAttribute('data-tilda-lazy') === 'yes')) {
+                    t_onFuncLoad('t_lazyload_update', function() {
+                        var container = rec.querySelector('.js-feed-container.t897__container_mobile-flex');
+                        if (!container)
+                            return
+                        container.addEventListener('scroll', t_throttle(function() {
+                            t_lazyload_update();
+                        }));
+                    });
+                }
+            });
+        </script>
+        <!-- news setup end -->
+    </div>
+    <div id="rec755346133" class="r t-rec" style=" " data-animationappear="off" data-record-type="131">
+        <!-- T123 -->
+        <div class="t123">
+            <div class="t-container_100 ">
+                <div class="t-width t-width_100 ">
+                    <!-- nominify begin -->
+                    <style>
+                        /*Отступ между изображением и названием*/
+                        .t897 .t-feed__post-imgwrapper {
+                            margin-bottom: 1rem;
+                        }
+
+                        /*Отступ между названием и режиссёром*/
+                        .t897 .t-feed__post-descr {
+                            margin-top: 0;
+                        }
+
+                        /*Анимация карточек в новостях*/
+                        .t897 .t-feed__row-grid__post-wrapper, .t897 .t-feed__col-grid__post-wrapper {
+                            border-radius: 5px;
+                            transition-duration: 0.5s;
+                            padding: 1rem;
+                        }
+
+                        .t897 .t-feed__row-grid__post-wrapper:hover, .t897 .t-feed__col-grid__post-wrapper:hover {
+                            transform: translate(0, -0.2rem);
+                            box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+                        }
+
+                        .t-feed__post-popup__text {
+                            font-family: 'Geologica', Arial, sans-serif;
+                            font-size: 18px;
+                            font-weight: 200;
+                        }
+
+                        .t-redactor__text {
+                            line-height: 1.11;
+                        }
+                    </style>
+                    <!-- nominify end -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <footer id="t-footer" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="8957957" data-tilda-page-id="49726985" data-tilda-formskey="b1a177039187a388f1852e7ec8957957" data-tilda-cookie="no" data-tilda-lazy="yes" data-tilda-project-lang="RU" data-tilda-root-zone="com">
+        <div id="rec757324553" class="r t-rec t-rec_pt_0 t-rec_pb_0" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" data-record-type="396">
+            <!-- T396 -->
+            <style>
+                #rec757324553 .t396__artboard {
+                    height: 150px;
+                    background-color: #2f2c27;
+                }
+
+                #rec757324553 .t396__filter {
+                    height: 150px;
+                }
+
+                #rec757324553 .t396__carrier {
+                    height: 150px;
+                    background-position: center center;
+                    background-attachment: scroll;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757324553 .t396__artboard,#rec757324553 .t396__filter,#rec757324553 .t396__carrier {
+                        height:150px;
+                    }
+
+                    #rec757324553 .t396__filter {
+                    }
+
+                    #rec757324553 .t396__carrier {
+                        background-attachment: scroll;
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec757324553 .t396__artboard,#rec757324553 .t396__filter,#rec757324553 .t396__carrier {
+                        height:170px;
+                    }
+
+                    #rec757324553 .t396__filter {
+                    }
+
+                    #rec757324553 .t396__carrier {
+                        background-attachment: scroll;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec757324553 .t396__artboard,#rec757324553 .t396__filter,#rec757324553 .t396__carrier {
+                        height:250px;
+                    }
+
+                    #rec757324553 .t396__filter {
+                    }
+
+                    #rec757324553 .t396__carrier {
+                        background-attachment: scroll;
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec757324553 .t396__artboard,#rec757324553 .t396__filter,#rec757324553 .t396__carrier {
+                        height:230px;
+                    }
+
+                    #rec757324553 .t396__filter {
+                    }
+
+                    #rec757324553 .t396__carrier {
+                        background-attachment: scroll;
+                    }
+                }
+
+                #rec757324553 .tn-elem[data-elem-id="1570628150635"] {
+                    z-index: 2;
+                    top: 27px;
+                    left: calc(50% - 600px + 754px);
+                    width: 38%;
+                    height: auto;
+                }
+
+                #rec757324553 .tn-elem[data-elem-id="1570628150635"] .tn-atom {
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757324553 .tn-elem[data-elem-id="1570628150635"] {
+                        top:362px;
+                        left: calc(50% - 480px + 1683px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                }
+
+                @media screen and (max-width: 639px) {
+                }
+
+                @media screen and (max-width: 479px) {
+                }
+
+                #rec757324553 .tn-elem[data-elem-id="1711982299753"] {
+                    color: #fffaf1;
+                    z-index: 3;
+                    top: 55px;
+                    left: calc(50% - 600px + -10px);
+                    width: 26%;
+                    height: auto;
+                }
+
+                #rec757324553 .tn-elem[data-elem-id="1711982299753"] .tn-atom {
+                    color: #fffaf1;
+                    font-size: 14px;
+                    font-family: 'Geologica',Arial,sans-serif;
+                    line-height: 1.55;
+                    font-weight: 200;
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711982299753"] {
+                        top:55px;
+                        left: calc(50% - 480px + 26px);
+                        width: 31%;
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711982299753"] {
+                        top:32px;
+                        left: calc(50% - 320px + 29px);
+                        width: 48%;
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711982299753"] {
+                        top:26px;
+                        left: calc(50% - 240px + 88px);
+                        width: 63%;
+                        height: auto;
+                    }
+
+                    #rec757324553 .tn-elem[data-elem-id="1711982299753"] {
+                        text-align: center;
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711982299753"] {
+                        top:13px;
+                        left: calc(50% - 160px + 0px);
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+
+                #rec757324553 .tn-elem[data-elem-id="1711983870166"] {
+                    z-index: 6;
+                    top: 88px;
+                    left: calc(50% - 600px + 337px);
+                    width: 20px;
+                    height: auto;
+                    -webkit-filter: invert(100%);
+                    filter: invert(100%);
+                }
+
+                #rec757324553 .tn-elem[data-elem-id="1711983870166"] .tn-atom {
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711983870166"] {
+                        top:88px;
+                        left: calc(50% - 480px + 373px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711983870166"] {
+                        top:69px;
+                        left: calc(50% - 320px + 366px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711983870166"] {
+                        top:137px;
+                        left: calc(50% - 240px + 137px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711983870166"] {
+                        top:123px;
+                        left: calc(50% - 160px + 69px);
+                        height: auto;
+                    }
+                }
+
+                #rec757324553 .tn-elem[data-elem-id="1711983870172"] {
+                    z-index: 7;
+                    top: 65px;
+                    left: calc(50% - 600px + 337px);
+                    width: 20px;
+                    height: auto;
+                    -webkit-filter: invert(100%);
+                    filter: invert(100%);
+                }
+
+                #rec757324553 .tn-elem[data-elem-id="1711983870172"] .tn-atom {
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711983870172"] {
+                        top:66px;
+                        left: calc(50% - 480px + 373px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711983870172"] {
+                        top:47px;
+                        left: calc(50% - 320px + 366px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711983870172"] {
+                        top:115px;
+                        left: calc(50% - 240px + 137px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711983870172"] {
+                        top:101px;
+                        left: calc(50% - 160px + 69px);
+                        height: auto;
+                    }
+                }
+
+                #rec757324553 .tn-elem[data-elem-id="1711984562542"] {
+                    color: #fffaf1;
+                    z-index: 4;
+                    top: 78px;
+                    left: calc(50% - 600px + 754px);
+                    width: 268px;
+                    height: auto;
+                }
+
+                #rec757324553 .tn-elem[data-elem-id="1711984562542"] .tn-atom {
+                    color: #fffaf1;
+                    font-size: 14px;
+                    font-family: 'Geologica',Arial,sans-serif;
+                    line-height: 1.55;
+                    font-weight: 200;
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711984562542"] {
+                        top:51px;
+                        left: calc(50% - 480px + 666px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711984562542"] {
+                        top:104px;
+                        left: calc(50% - 320px + 29px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711984562542"] {
+                        top:184px;
+                        left: calc(50% - 240px + 106px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711984562542"] {
+                        top:170px;
+                        left: calc(50% - 160px + 26px);
+                        height: auto;
+                    }
+                }
+
+                #rec757324553 .tn-elem[data-elem-id="1711986678838"] {
+                    color: #fffaf1;
+                    z-index: 5;
+                    top: 101px;
+                    left: calc(50% - 600px + 754px);
+                    width: 19%;
+                    height: auto;
+                }
+
+                #rec757324553 .tn-elem[data-elem-id="1711986678838"] .tn-atom {
+                    color: #fffaf1;
+                    font-size: 14px;
+                    font-family: 'Geologica',Arial,sans-serif;
+                    line-height: 1.55;
+                    font-weight: 200;
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711986678838"] {
+                        top:73px;
+                        left: calc(50% - 480px + 666px);
+                        width: 27%;
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711986678838"] {
+                        top:126px;
+                        left: calc(50% - 320px + 29px);
+                        width: 36%;
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711986678838"] {
+                        top:206px;
+                        left: calc(50% - 240px + 129px);
+                        width: 46%;
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711986678838"] {
+                        top:192px;
+                        left: calc(50% - 160px + 49px);
+                        width: 68%;
+                        height: auto;
+                    }
+                }
+
+                #rec757324553 .tn-elem[data-elem-id="1711984562542"] {
+                    color: #fffaf1;
+                    z-index: 4;
+                    top: 78px;
+                    left: calc(50% - 600px + 754px);
+                    width: 268px;
+                    height: auto;
+                }
+
+                #rec757324553 .tn-elem[data-elem-id="1711984562542"] .tn-atom {
+                    color: #fffaf1;
+                    font-size: 14px;
+                    font-family: 'Geologica',Arial,sans-serif;
+                    line-height: 1.55;
+                    font-weight: 200;
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711984562542"] {
+                        top:51px;
+                        left: calc(50% - 480px + 666px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711984562542"] {
+                        top:104px;
+                        left: calc(50% - 320px + 29px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711984562542"] {
+                        top:184px;
+                        left: calc(50% - 240px + 106px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711984562542"] {
+                        top:170px;
+                        left: calc(50% - 160px + 26px);
+                        height: auto;
+                    }
+                }
+
+                #rec757324553 .tn-elem[data-elem-id="1711986678838"] {
+                    color: #fffaf1;
+                    z-index: 5;
+                    top: 101px;
+                    left: calc(50% - 600px + 754px);
+                    width: 19%;
+                    height: auto;
+                }
+
+                #rec757324553 .tn-elem[data-elem-id="1711986678838"] .tn-atom {
+                    color: #fffaf1;
+                    font-size: 14px;
+                    font-family: 'Geologica',Arial,sans-serif;
+                    line-height: 1.55;
+                    font-weight: 200;
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711986678838"] {
+                        top:73px;
+                        left: calc(50% - 480px + 666px);
+                        width: 27%;
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711986678838"] {
+                        top:126px;
+                        left: calc(50% - 320px + 29px);
+                        width: 36%;
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711986678838"] {
+                        top:206px;
+                        left: calc(50% - 240px + 129px);
+                        width: 46%;
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec757324553 .tn-elem[data-elem-id="1711986678838"] {
+                        top:192px;
+                        left: calc(50% - 160px + 49px);
+                        width: 68%;
+                        height: auto;
+                    }
+                }
+
+                #rec757324553 .tn-elem[data-elem-id="1712139202755"] {
+                    z-index: 8;
+                    top: 41px;
+                    left: calc(50% - 600px + 334px);
+                    width: 25px;
+                    height: auto;
+                    -webkit-filter: invert(100%);
+                    filter: invert(100%);
+                }
+
+                #rec757324553 .tn-elem[data-elem-id="1712139202755"] .tn-atom {
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757324553 .tn-elem[data-elem-id="1712139202755"] {
+                        top:41px;
+                        left: calc(50% - 480px + 370px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec757324553 .tn-elem[data-elem-id="1712139202755"] {
+                        top:22px;
+                        left: calc(50% - 320px + 363px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec757324553 .tn-elem[data-elem-id="1712139202755"] {
+                        top:90px;
+                        left: calc(50% - 240px + 134px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec757324553 .tn-elem[data-elem-id="1712139202755"] {
+                        top:76px;
+                        left: calc(50% - 160px + 66px);
+                        height: auto;
+                    }
+                }
+
+                #rec757324553 .tn-elem[data-elem-id="1717228520277"] {
+                    color: #fffaf1;
+                    z-index: 9;
+                    top: 65px;
+                    left: calc(50% - 600px + 369px);
+                    width: 149px;
+                    height: auto;
+                }
+
+                #rec757324553 .tn-elem[data-elem-id="1717228520277"] .tn-atom {
+                    color: #fffaf1;
+                    font-size: 14px;
+                    font-family: 'Geologica',Arial,sans-serif;
+                    line-height: 1.55;
+                    font-weight: 200;
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757324553 .tn-elem[data-elem-id="1717228520277"] {
+                        top:65px;
+                        left: calc(50% - 480px + 405px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec757324553 .tn-elem[data-elem-id="1717228520277"] {
+                        top:46px;
+                        left: calc(50% - 320px + 396px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec757324553 .tn-elem[data-elem-id="1717228520277"] {
+                        top:114px;
+                        left: calc(50% - 240px + 169px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec757324553 .tn-elem[data-elem-id="1717228520277"] {
+                        top:100px;
+                        left: calc(50% - 160px + 101px);
+                        height: auto;
+                    }
+                }
+
+                #rec757324553 .tn-elem[data-elem-id="1716903626256"] {
+                    color: #fffaf1;
+                    z-index: 10;
+                    top: 43px;
+                    left: calc(50% - 600px + 369px);
+                    width: 121px;
+                    height: auto;
+                }
+
+                #rec757324553 .tn-elem[data-elem-id="1716903626256"] .tn-atom {
+                    color: #fffaf1;
+                    font-size: 14px;
+                    font-family: 'Geologica',Arial,sans-serif;
+                    line-height: 1.55;
+                    font-weight: 200;
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757324553 .tn-elem[data-elem-id="1716903626256"] {
+                        top:43px;
+                        left: calc(50% - 480px + 405px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec757324553 .tn-elem[data-elem-id="1716903626256"] {
+                        top:24px;
+                        left: calc(50% - 320px + 396px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec757324553 .tn-elem[data-elem-id="1716903626256"] {
+                        top:92px;
+                        left: calc(50% - 240px + 169px);
+                        height: auto;
+                    }
+
+                    #rec757324553 .tn-elem[data-elem-id="1716903626256"] .tn-atom {
+                        line-height: 1.55;
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec757324553 .tn-elem[data-elem-id="1716903626256"] {
+                        top:78px;
+                        left: calc(50% - 160px + 101px);
+                        height: auto;
+                    }
+                }
+
+                #rec757324553 .tn-elem[data-elem-id="1717228551866"] {
+                    color: #fffaf1;
+                    z-index: 11;
+                    top: 88px;
+                    left: calc(50% - 600px + 369px);
+                    width: 149px;
+                    height: auto;
+                }
+
+                #rec757324553 .tn-elem[data-elem-id="1717228551866"] .tn-atom {
+                    color: #fffaf1;
+                    font-size: 14px;
+                    font-family: 'Geologica',Arial,sans-serif;
+                    line-height: 1.55;
+                    font-weight: 200;
+                    background-position: center center;
+                    border-color: transparent ;
+                    border-style: solid;
+                }
+
+                @media screen and (max-width: 1199px) {
+                    #rec757324553 .tn-elem[data-elem-id="1717228551866"] {
+                        top:88px;
+                        left: calc(50% - 480px + 405px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 959px) {
+                    #rec757324553 .tn-elem[data-elem-id="1717228551866"] {
+                        top:69px;
+                        left: calc(50% - 320px + 396px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 639px) {
+                    #rec757324553 .tn-elem[data-elem-id="1717228551866"] {
+                        top:137px;
+                        left: calc(50% - 240px + 169px);
+                        height: auto;
+                    }
+                }
+
+                @media screen and (max-width: 479px) {
+                    #rec757324553 .tn-elem[data-elem-id="1717228551866"] {
+                        top:123px;
+                        left: calc(50% - 160px + 101px);
+                        height: auto;
+                    }
+                }
+            </style>
+            <div class='t396'>
+                <div class="t396__artboard" data-artboard-recid="757324553" data-artboard-screens="320,480,640,960,1200" data-artboard-height="150" data-artboard-valign="bottom" data-artboard-upscale="grid" data-artboard-height-res-320="230" data-artboard-height-res-480="250" data-artboard-height-res-640="170" data-artboard-height-res-960="150">
+                    <div class="t396__carrier" data-artboard-recid="757324553"></div>
+                    <div class="t396__filter" data-artboard-recid="757324553"></div>
+                    <div class='t396__elem tn-elem tn-elem__7573245531570628150635' data-elem-id='1570628150635' data-elem-type='form' data-field-top-value="27" data-field-left-value="754" data-field-width-value="38" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="%" data-field-top-res-960-value="362" data-field-left-res-960-value="1683" data-field-inputpos-value="h" data-field-inputfontfamily-value="Geologica" data-field-inputfontsize-value="14" data-field-inputfontweight-value="400" data-field-inputcolor-value="#2f2c27" data-field-inputbgcolor-value="#fffaf1" data-field-inputbordersize-value="0" data-field-inputradius-value="30" data-field-inputheight-value="44" data-field-inputmargbottom-value="20" data-field-inputmargright-value="20" data-field-inputtitlefontsize-value="16" data-field-inputtitlefontweight-value="400" data-field-inputtitlecolor-value="#000" data-field-inputtitlemargbottom-value="5" data-field-inputelsfontweight-value="400" data-field-inputelsfontsize-value="14" data-field-buttontitle-value="Подписаться<br />на рассылку" data-field-buttoncolor-value="#2f2c27" data-field-buttonbgcolor-value="#fffaf1" data-field-buttonradius-value="30" data-field-buttonwidth-value="120" data-field-buttonheight-value="44" data-field-buttonfontfamily-value="Geologica" data-field-buttonfontsize-value="14" data-field-buttonfontweight-value="600" data-field-receivers-value="855963ef68db1a1dbff54d619b6e0242">
+                        <div class='tn-atom tn-atom__form'></div>
+                        <!--googleoff: all-->
+                        <!--noindex-->
+                        <div data-nosnippet="true" class="tn-atom__inputs-wrapp" style="display:none;">
+                            <textarea class="tn-atom__inputs-textarea">[{"lid":"1531306243545","ls":"10","loff":"","li_type":"em","li_name":"email","li_ph":"\u0412\u0430\u0448 Email","li_nm":"email"}]</textarea>
+                        </div>
+                        <!--/noindex-->
+                        <!--googleon: all-->
+                    </div>
+                    <div class='t396__elem tn-elem tn-elem__7573245531711982299753' data-elem-id='1711982299753' data-elem-type='text' data-field-top-value="55" data-field-left-value="-10" data-field-width-value="26" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="%" data-field-top-res-320-value="13" data-field-left-res-320-value="0" data-field-width-res-320-value="100" data-field-top-res-480-value="26" data-field-left-res-480-value="88" data-field-width-res-480-value="63" data-field-top-res-640-value="32" data-field-left-res-640-value="29" data-field-width-res-640-value="48" data-field-top-res-960-value="55" data-field-left-res-960-value="26" data-field-width-res-960-value="31">
+                        <div class='tn-atom' field='tn_text_1711982299753'>Оргкомитет Всероссийского инклюзивного кинофестиваля «Незримое кино»:</div>
+                    </div>
+                    <div class='t396__elem tn-elem social-link-img tn-elem__7573245531711983870166' data-elem-id='1711983870166' data-elem-type='image' data-field-top-value="88" data-field-left-value="337" data-field-width-value="20" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-field-lazyoff-value="y" data-field-top-res-320-value="123" data-field-left-res-320-value="69" data-field-top-res-480-value="137" data-field-left-res-480-value="137" data-field-top-res-640-value="69" data-field-left-res-640-value="366" data-field-top-res-960-value="88" data-field-left-res-960-value="373">
+                        <div class='tn-atom'>
+                            <img class='tn-atom__img' src='https://static.tildacdn.com/lib/tildaicon/38343566-3234-4630-b863-383565653732/sn_vkontakte.svg' alt='' imgfield='tn_img_1711983870166'/>
+                        </div>
+                    </div>
+                    <div class='t396__elem tn-elem social-link-img tn-elem__7573245531711983870172' data-elem-id='1711983870172' data-elem-type='image' data-field-top-value="65" data-field-left-value="337" data-field-width-value="20" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-field-lazyoff-value="y" data-field-top-res-320-value="101" data-field-left-res-320-value="69" data-field-top-res-480-value="115" data-field-left-res-480-value="137" data-field-top-res-640-value="47" data-field-left-res-640-value="366" data-field-top-res-960-value="66" data-field-left-res-960-value="373">
+                        <div class='tn-atom'>
+                            <img class='tn-atom__img' src='https://static.tildacdn.com/lib/tildaicon/33303265-3938-4164-a337-376530653364/sn_mail.svg' alt='' imgfield='tn_img_1711983870172'/>
+                        </div>
+                    </div>
+                    <div class="t396__group tn-group tn-group__757324553171690441596156280" data-fields="top,left" data-group-id="171690441596156280" data-group-type-value="logical" data-group-top-value="78" data-group-left-value="754" data-group-height-value="45" data-group-width-value="268" data-group-topunits-value="px" data-group-leftunits-value="px">
+                        <div class="tn-molecule" id="molecule-171690441596156280">
+                            <div class='t396__elem tn-elem tn-elem__7573245531711984562542' data-elem-id='1711984562542' data-elem-type='text' data-field-top-value="78" data-field-left-value="754" data-field-width-value="268" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-field-top-res-320-value="170" data-field-left-res-320-value="26" data-field-top-res-480-value="184" data-field-left-res-480-value="106" data-field-top-res-640-value="104" data-field-left-res-640-value="29" data-field-top-res-960-value="51" data-field-left-res-960-value="666">
+                                <div class='tn-atom' field='tn_text_1711984562542'>© 2024 Креативные индустрии Урала</div>
+                            </div>
+                            <div class='t396__elem tn-elem tn-elem__7573245531711986678838' data-elem-id='1711986678838' data-elem-type='text' data-field-top-value="101" data-field-left-value="754" data-field-width-value="19" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="%" data-field-top-res-320-value="192" data-field-left-res-320-value="49" data-field-width-res-320-value="68" data-field-top-res-480-value="206" data-field-left-res-480-value="129" data-field-width-res-480-value="46" data-field-top-res-640-value="126" data-field-left-res-640-value="29" data-field-width-res-640-value="36" data-field-top-res-960-value="73" data-field-left-res-960-value="666" data-field-width-res-960-value="27">
+                                <div class='tn-atom'>
+                                    <a href="index" style="color: inherit">Политика конфиденциальности</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='t396__elem tn-elem tn-elem__7573245531712139202755' data-elem-id='1712139202755' data-elem-type='image' data-field-top-value="41" data-field-left-value="334" data-field-width-value="25" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-field-filewidth-value="1200" data-field-fileheight-value="1200" data-field-lazyoff-value="y" data-field-top-res-320-value="76" data-field-left-res-320-value="66" data-field-top-res-480-value="90" data-field-left-res-480-value="134" data-field-top-res-640-value="22" data-field-left-res-640-value="363" data-field-top-res-960-value="41" data-field-left-res-960-value="370">
+                        <div class='tn-atom'>
+                            <img class='tn-atom__img' src='https://static.tildacdn.com/tild3931-3238-4065-a163-343266386636/pngtree-phone-icon-i.png' alt='' imgfield='tn_img_1712139202755'/>
+                        </div>
+                    </div>
+                    <div class='t396__elem tn-elem tn-elem__7573245531717228520277' data-elem-id='1717228520277' data-elem-type='text' data-field-top-value="65" data-field-left-value="369" data-field-width-value="149" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-field-top-res-320-value="100" data-field-left-res-320-value="101" data-field-top-res-480-value="114" data-field-left-res-480-value="169" data-field-top-res-640-value="46" data-field-left-res-640-value="396" data-field-top-res-960-value="65" data-field-left-res-960-value="405">
+                        <div class='tn-atom' field='tn_text_1717228520277'>
+                            <a href="mailto:nezrimoekino@mail.ru" target="_blank" rel="noreferrer noopener" style="color: rgb(255, 250, 241);">nezrimoekino@mail.ru</a>
+                        </div>
+                    </div>
+                    <div class='t396__elem tn-elem tn-elem__7573245531716903626256' data-elem-id='1716903626256' data-elem-type='text' data-field-top-value="43" data-field-left-value="369" data-field-width-value="121" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-field-top-res-320-value="78" data-field-left-res-320-value="101" data-field-top-res-480-value="92" data-field-left-res-480-value="169" data-field-top-res-640-value="24" data-field-left-res-640-value="396" data-field-top-res-960-value="43" data-field-left-res-960-value="405">
+                        <div class='tn-atom' field='tn_text_1716903626256'>+7 963 08 80 217</div>
+                    </div>
+                    <div class='t396__elem tn-elem tn-elem__7573245531717228551866' data-elem-id='1717228551866' data-elem-type='text' data-field-top-value="88" data-field-left-value="369" data-field-width-value="149" data-field-axisy-value="top" data-field-axisx-value="left" data-field-container-value="grid" data-field-topunits-value="px" data-field-leftunits-value="px" data-field-heightunits-value="" data-field-widthunits-value="px" data-field-top-res-320-value="123" data-field-left-res-320-value="101" data-field-top-res-480-value="137" data-field-left-res-480-value="169" data-field-top-res-640-value="69" data-field-left-res-640-value="396" data-field-top-res-960-value="88" data-field-left-res-960-value="405">
+                        <div class='tn-atom' field='tn_text_1717228551866'>
+                            <a href="index" target="_blank" rel="noreferrer noopener" style="color: rgb(255, 250, 241);">vk.com/nezrimoe_kino</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+                
+        </div>
+    </footer>
+    <!--/footer-->
+</div>
+<!--/allrecords-->
+<!-- Stat -->
+<script type="text/javascript">
+    if (!window.mainTracker) {
+        window.mainTracker = 'tilda';
+    }
+    window.tildastatcookie = 'no';
+    setTimeout(function() {
+        (function(d, w, k, o, g) {
+                var n = d.getElementsByTagName(o)[0]
+                    , s = d.createElement(o)
+                    , f = function() {
+                    n.parentNode.insertBefore(s, n);
+                };
+                s.type = "text/javascript";
+                s.async = true;
+                s.key = k;
+                s.id = "tildastatscript";
+                s.src = g;
+                if (w.opera == "[object Opera]") {
+                    d.addEventListener("DOMContentLoaded", f, false);
+                } else {
+                    f();
+                }
+            }
+        )(document, window, '727d2bbb3caccbcb575f0f2a3535a3d2', 'script', 'https://static.tildacdn.com/js/tilda-stat-1.0.min.js');
+    }, 2000);
+</script>
+</body>
+</html>

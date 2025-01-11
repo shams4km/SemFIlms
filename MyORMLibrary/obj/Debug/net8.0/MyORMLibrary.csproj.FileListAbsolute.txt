@@ -1,0 +1,36 @@
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyORMLibrary/bin/Debug/net8.0/MyORMLibrary.deps.json
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyORMLibrary/bin/Debug/net8.0/MyORMLibrary.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyORMLibrary/bin/Debug/net8.0/MyORMLibrary.pdb
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.csproj.AssemblyReference.cache
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.AssemblyInfoInputs.cache
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.AssemblyInfo.cs
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.csproj.CoreCompileInputs.cache
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyORMLibrary/obj/Debug/net8.0/refint/MyORMLibrary.dll
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.pdb
+C:/Users/bulat-laptop/Downloads/MyHTTPServer/MyORMLibrary/obj/Debug/net8.0/ref/MyORMLibrary.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyORMLibrary/bin/Debug/net8.0/MyORMLibrary.deps.json
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyORMLibrary/bin/Debug/net8.0/MyORMLibrary.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyORMLibrary/bin/Debug/net8.0/MyORMLibrary.pdb
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.csproj.AssemblyReference.cache
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.AssemblyInfoInputs.cache
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.AssemblyInfo.cs
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.csproj.CoreCompileInputs.cache
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyORMLibrary/obj/Debug/net8.0/refint/MyORMLibrary.dll
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.pdb
+D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/MyORMLibrary/obj/Debug/net8.0/ref/MyORMLibrary.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary/bin/Debug/net8.0/MyORMLibrary.deps.json
+/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary/bin/Debug/net8.0/MyORMLibrary.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary/bin/Debug/net8.0/MyORMLibrary.pdb
+/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.csproj.AssemblyReference.cache
+/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.AssemblyInfoInputs.cache
+/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.AssemblyInfo.cs
+/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.csproj.CoreCompileInputs.cache
+/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary/obj/Debug/net8.0/refint/MyORMLibrary.dll
+/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary/obj/Debug/net8.0/MyORMLibrary.pdb
+/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary/obj/Debug/net8.0/ref/MyORMLibrary.dll
