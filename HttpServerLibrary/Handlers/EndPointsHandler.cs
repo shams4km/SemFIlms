@@ -1,103 +1,131 @@
-﻿using System.Net;
-using System.Reflection;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Net;
+using System.Reflection;
 using System.Web;
 using HttpServerLibrary.Attributes;
-using HttpServerLibrary.HttpResponce;
 using HttpServerLibrary.HttpResponce;
 
 namespace HttpServerLibrary.Handlers;
 
-/// <summary>
-/// Handler for processing HTTP requests endpoints. Uses reflection to discover and register endpoints.
-/// Implements the Chain of Responsibility pattern.
-/// </summary>
 internal class EndPointsHandler : Handler
 {
-    /// <summary>
-    /// Dictionary mapping URLs to their corresponding handler methods. The key is the URL path, and the value is a list of tuples containing the HTTP method,
-    /// the handler method's reflection information, and the endpoint type.
-    /// </summary>
-    private readonly Dictionary<string, List<(HttpMethod method, MethodInfo handler, Type endpointType)>> _routes =
-        new();
+    private readonly Dictionary<string, List<(HttpMethod method, MethodInfo handler, Type endpointType)>> _routes = new();
 
-    /// <summary>
-    /// Constructor for EndPointsHandler. Automatically registers endpoints from the executing assembly.
-    /// </summary>
     public EndPointsHandler()
     {
         RegisterEndpointsFromAssemblies(new[] { Assembly.GetEntryAssembly() });
     }
 
-    /// <summary>
-    /// Handles an incoming HTTP request. 
-    /// if found matching endpoint, invokes the handler. Otherwise, sending request to other handler in the chain
-    /// </summary>
-    /// <param name="context">The HttpRequestContext containing information about request</param>
     public override void HandleRequest(HttpRequestContext context)
     {
-        Console.WriteLine("End point handler");
+        Console.WriteLine($"[INFO] Запрос получен: {context.Request.HttpMethod} {context.Request.Url}");
 
-        // Достаем ссылку и тип метода из контекста запроса
         var url = context.Request.Url.LocalPath.Trim('/');
         var methodType = context.Request.HttpMethod.ToUpperInvariant();
 
+        var route = FindRoute(url, methodType);
 
-        if (_routes.ContainsKey(url))
+        if (route.handler != null)
         {
-            // Ищем handler который соответствует ссылке и http методы
-            var route = _routes[url].FirstOrDefault(r =>
-                r.method.ToString().Equals(methodType, StringComparison.InvariantCultureIgnoreCase));
+            Console.WriteLine($"[INFO] Маршрут найден: {url}");
+            Console.WriteLine($"[INFO] Обработчик найден: {route.handler.Name}");
 
-            if (route.handler != null)
+            var endpointInstance = Activator.CreateInstance(route.endpointType) as BaseEndPoint;
+
+            if (endpointInstance != null)
             {
-                var endpointInstance = Activator.CreateInstance(route.endpointType) as BaseEndPoint;
+                endpointInstance.SetContext(context);
 
-                if (endpointInstance != null)
+                var parameters = GetParams(context, route.handler, route.parameters);
+                var result = route.handler.Invoke(endpointInstance, parameters) as IHttpResponceResult;
+
+                if (result != null)
                 {
-                    endpointInstance.SetContext(context);
-
-                    var parameters = GetParams(context, route.handler);
-                    // Invoke the handler method. 
-                    var result = route.handler.Invoke(endpointInstance, parameters) as IHttpResponceResult;
-                    result?.Execute(context.Response); // Execute the result
-
-
-                    //context.Response.Close();
-
-
-                    // TODO добавить базовый
+                    result.Execute(context.Response);
+                    context.Response.Close();
+                    return;
                 }
             }
         }
-        // If no matching route is found, pass the request to the next handler.
-        // Если нужный маршрут не найдет, переходим к следующему handler`У
-        else if (Successor != null)
+
+        if (Successor != null)
         {
-            Console.WriteLine("switching to next next handler");
+            Console.WriteLine($"[WARN] Маршрут не найден, передача следующему обработчику: {url}");
             Successor.HandleRequest(context);
+        }
+        else
+        {
+            Console.WriteLine($"[ERROR] Маршрут не найден: {url}");
+            context.Response.StatusCode = (int)HttpStatusCode.NotFound;
+            context.Response.Close();
         }
     }
 
-    /// <summary>
-    /// Registers all endpoints found in the specified assemblies
-    /// </summary>
-    /// <param name="assemblies">An array of assemblies to scan for endpoints.</param>
+    private (MethodInfo handler, Type endpointType, Dictionary<string, string> parameters) FindRoute(string url, string methodType)
+    {
+        foreach (var route in _routes)
+        {
+            var routePattern = route.Key;
+            var routeMethods = route.Value;
+
+            if (IsRouteMatch(routePattern, url, out var parameters))
+            {
+                var routeHandler = routeMethods.FirstOrDefault(r =>
+                    r.method.ToString().Equals(methodType, StringComparison.InvariantCultureIgnoreCase));
+
+                if (routeHandler.handler != null)
+                {
+                    return (routeHandler.handler, routeHandler.endpointType, parameters);
+                }
+            }
+        }
+
+        return (null, null, null);
+    }
+
+    private bool IsRouteMatch(string routePattern, string url, out Dictionary<string, string> parameters)
+    {
+        parameters = new Dictionary<string, string>();
+
+        var routeParts = routePattern.Split('/');
+        var urlParts = url.Split('/');
+
+        if (routeParts.Length != urlParts.Length)
+        {
+            return false;
+        }
+
+        for (int i = 0; i < routeParts.Length; i++)
+        {
+            if (routeParts[i].StartsWith("{") && routeParts[i].EndsWith("}"))
+            {
+                var paramName = routeParts[i].Trim('{', '}');
+                parameters[paramName] = urlParts[i];
+            }
+            else if (routeParts[i] != urlParts[i])
+            {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
     private void RegisterEndpointsFromAssemblies(Assembly[] assemblies)
     {
         foreach (Assembly assembly in assemblies)
         {
-            // Find all types that inherit from BaseEndPoint and are not abstract.
             var endpointsTypes = assembly.GetTypes()
                 .Where(t => typeof(BaseEndPoint).IsAssignableFrom(t) && !t.IsAbstract);
 
             foreach (var endpointType in endpointsTypes)
             {
-                // Get all methods of the endpoint type.
                 var methods = endpointType.GetMethods();
                 foreach (var method in methods)
                 {
-                    // TODO refactor 
                     var getAttribute = method.GetCustomAttribute<GetAttribute>();
                     if (getAttribute != null)
                     {
@@ -114,13 +142,6 @@ internal class EndPointsHandler : Handler
         }
     }
 
-    /// <summary>
-    /// Registers a single route with its corresponding handler method.
-    /// </summary>
-    /// <param name="route">The URL route.</param>
-    /// <param name="method">The HTTP method.</param>
-    /// <param name="handler">The MethodInfo representing the handler method.</param>
-    /// <param name="endpointType">The type of the endpoint class.</param>
     private void RegisterRoute(string route, HttpMethod method, MethodInfo handler, Type endpointType)
     {
         if (!_routes.ContainsKey(route))
@@ -129,47 +150,46 @@ internal class EndPointsHandler : Handler
         }
 
         _routes[route].Add((method, handler, endpointType));
-        Console.WriteLine($"[INFO] Registered route: {method} {route} in {endpointType.Name}.{handler.Name}");
+        Console.WriteLine($"[INFO] Зарегистрирован маршрут: {method} {route} в {endpointType.Name}.{handler.Name}");
     }
 
-
-    private object[] GetParams(HttpRequestContext context, MethodInfo handler)
+    private object[] GetParams(HttpRequestContext context, MethodInfo handler, Dictionary<string, string> routeParameters)
     {
         var parameters = handler.GetParameters();
         var result = new List<object>();
 
-        if (context.Request.HttpMethod == "GET" || context.Request.HttpMethod == "POST")
+        foreach (var parameter in parameters)
         {
-            using var reader = new StreamReader(context.Request.InputStream);
-            string body = reader.ReadToEnd();
-            var data = HttpUtility.ParseQueryString(body);
-            foreach (var parameter in parameters)
+            if (routeParameters.ContainsKey(parameter.Name))
             {
-                if (context.Request.HttpMethod == "GET")
+                result.Add(Convert.ChangeType(routeParameters[parameter.Name], parameter.ParameterType));
+            }
+            else if (context.Request.HttpMethod == "GET")
+            {
+                var value = context.Request.QueryString[parameter.Name];
+                if (value != null)
                 {
-                    result.Add(Convert.ChangeType(context.Request.QueryString[parameter.Name],
-                        parameter.ParameterType));
+                    result.Add(Convert.ChangeType(value, parameter.ParameterType));
                 }
-                else if (context.Request.HttpMethod == "POST")
+                else
                 {
-                    // using var reader = new StreamReader(context.Request.InputStream);
-                    // string body = reader.ReadToEnd();
-                    // var data = HttpUtility.ParseQueryString(body);
-                    result.Add(Convert.ChangeType(data[parameter.Name], parameter.ParameterType));
+                    result.Add(parameter.ParameterType.IsValueType ? Activator.CreateInstance(parameter.ParameterType) : null);
                 }
             }
-        }
-        else
-        {
-            // Дополнительная обработка для сегментов URL
-            var urlSegments = context.Request.Url.Segments
-                .Skip(2) // Пропуск первых двух сегментов
-                .Select(s => s.Replace("/", ""))
-                .ToArray();
-
-            for (int i = 0; i < parameters.Length; i++)
+            else if (context.Request.HttpMethod == "POST")
             {
-                result.Add(Convert.ChangeType(urlSegments[i], parameters[i].ParameterType));
+                using var reader = new StreamReader(context.Request.InputStream);
+                string body = reader.ReadToEnd();
+                var data = HttpUtility.ParseQueryString(body);
+
+                if (data[parameter.Name] != null)
+                {
+                    result.Add(Convert.ChangeType(data[parameter.Name], parameter.ParameterType));
+                }
+                else
+                {
+                    result.Add(parameter.ParameterType.IsValueType ? Activator.CreateInstance(parameter.ParameterType) : null);
+                }
             }
         }
 

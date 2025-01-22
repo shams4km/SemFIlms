@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary/MyORMLibrary.csproj": {}
+    "/Users/shams/Desktop/MyHTTPServer 6/MyORMLibrary/MyORMLibrary.csproj": {}
   },
   "projects": {
-    "/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary/MyORMLibrary.csproj": {
+    "/Users/shams/Desktop/MyHTTPServer 6/MyORMLibrary/MyORMLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary/MyORMLibrary.csproj",
+        "projectUniqueName": "/Users/shams/Desktop/MyHTTPServer 6/MyORMLibrary/MyORMLibrary.csproj",
         "projectName": "MyORMLibrary",
-        "projectPath": "/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary/MyORMLibrary.csproj",
+        "projectPath": "/Users/shams/Desktop/MyHTTPServer 6/MyORMLibrary/MyORMLibrary.csproj",
         "packagesPath": "/Users/shams/.nuget/packages/",
-        "outputPath": "/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary/obj/",
+        "outputPath": "/Users/shams/Desktop/MyHTTPServer 6/MyORMLibrary/obj/",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [

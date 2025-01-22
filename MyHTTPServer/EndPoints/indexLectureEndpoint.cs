@@ -15,7 +15,7 @@ public class indexLectureEndpoint : BaseEndPoint
         var fileContent = File.ReadAllText(filePath);
 
         // Получение данных из базы
-        var ormContext = new ORMContext("Host=localhost; Port=5432; Username=postgres; Password=19370; Database=postgres");
+        var ormContext = new ORMContext("Host=localhost; Port=5432; Username=postgres; Password=19370; Database=films");
         var moviesList = ormContext.GetAllMovies();
         var lecturesList = ormContext.GetAllLectures();
 
@@ -27,11 +27,11 @@ public class indexLectureEndpoint : BaseEndPoint
                 <div class='t-feed__grid-col t-col t-col_4'>
                     <div class='movie-card'>
                         <a href='/assets/movies/{movie.Id}'>
-                            <img src='{movie.ImagePath}' alt='{movie.Title}' width = '268' height = '148.88'/>
+                            <img src='/assets/{movie.ImagePath}' alt='{movie.Title}' width = '268' height = '148.88'/>
                         </a>
                         <div class='series-card-description'>
                             <h3>{movie.Title}</h3>
-                            <h6>{movie.Genre} | {movie.Year}</h6>
+                            <h6>{movie.Director} | {movie.Year}</h6>
                         </div>
                     </div>
                 </div>
@@ -46,11 +46,11 @@ public class indexLectureEndpoint : BaseEndPoint
                 <div class='t-feed__grid-col t-col t-col_4'>
                     <div class='lecture-card'>
                         <a href='/assets/lectures/{lecture.Id}'>
-                            <img src='{lecture.ImagePath}' alt='{lecture.Title}' width = '268' height = '148.88'/>
+                            <img src='/assets/{lecture.ImagePath}' alt='{lecture.Title}' width = '268' height = '148.88'/>
                         </a>
                         <div class='series-card-description'>
                             <h3>{lecture.Title}</h3>
-                            <h6>{lecture.Genre} | {lecture.Year}</h6>
+                            <h6>{lecture.Director} | {lecture.Year}</h6>
                         </div>
                     </div>
                 </div>

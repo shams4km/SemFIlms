@@ -2790,11 +2790,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary.UnitTests/MyORMLibrary.UnitTests.csproj",
+      "projectUniqueName": "/Users/shams/Desktop/MyHTTPServer 6/MyORMLibrary.UnitTests/MyORMLibrary.UnitTests.csproj",
       "projectName": "MyORMLibrary.UnitTests",
-      "projectPath": "/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary.UnitTests/MyORMLibrary.UnitTests.csproj",
+      "projectPath": "/Users/shams/Desktop/MyHTTPServer 6/MyORMLibrary.UnitTests/MyORMLibrary.UnitTests.csproj",
       "packagesPath": "/Users/shams/.nuget/packages/",
-      "outputPath": "/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary.UnitTests/obj/",
+      "outputPath": "/Users/shams/Desktop/MyHTTPServer 6/MyORMLibrary.UnitTests/obj/",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
@@ -2810,8 +2810,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary/MyORMLibrary.csproj": {
-              "projectPath": "/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary/MyORMLibrary.csproj"
+            "/Users/shams/Desktop/MyHTTPServer 6/MyORMLibrary/MyORMLibrary.csproj": {
+              "projectPath": "/Users/shams/Desktop/MyHTTPServer 6/MyORMLibrary/MyORMLibrary.csproj"
             }
           }
         }

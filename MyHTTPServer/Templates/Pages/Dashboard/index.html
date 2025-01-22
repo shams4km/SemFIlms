@@ -1148,7 +1148,7 @@
         </div>
 
         <!-- Buttons for switching between sections (Movies, Lectures, All) -->
-        <div class="js-feed-parts-select-container t-col t-col_12">
+        <div class="js-feed-parts-select-container">
             <ul class="t-feed__parts-switch-wrapper t-align_center" aria-label="Разделы потока">
                 <li class="js-feed-parts-switcher t-feed__parts-switch-btn t-feed__parts-switch-btn_bg t-name t-name_xs t-menu__link-item t-active" data-feedpart-title="" data-feedpart-uid="549153956991">
                     <a href="index" class="t-feed__link">Все</a>
@@ -1177,13 +1177,26 @@
     <!-- Styles for Movie Grid -->
     <style type="text/css">
         .t-feed__parts-switch-wrapper {
-            display: flex; /* Use flexbox for alignment */
-            justify-content: center; /* Center horizontally */
-            align-items: center; /* Center vertically if needed */
-            gap: 5px; /* Space between buttons */
-            list-style: none; /* Remove default list styling */
-            padding: 0;
-            margin: 20px 0; /* Add some margin around buttons */
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center; /* Центрирование по вертикали */
+            gap: 5px; /* Расстояние между кнопками */
+            list-style: none; /* Убираем маркеры списка */
+            padding: 0; /* Убираем внутренние отступы */
+            margin: 20px auto; /* Центрирование контейнера по горизонтали */
+            width: 100%; /* Занимает всю доступную ширину */
+            max-width: 100%;
+        }
+
+        .t-feed__parts-switch-btn {
+            flex: 0 0 auto; /* Кнопки не растягиваются и не сжимаются */
+            margin: 0; /* Убираем внешние отступы */
+        }
+        .js-feed-parts-select-container {
+            display: flex;
+            justify-content: center; /* Центрирование по горизонтали */
+            width: 100%; /* Занимает всю доступную ширину */
         }
 
         .grid-item {

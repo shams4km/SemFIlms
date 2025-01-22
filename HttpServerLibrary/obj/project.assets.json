@@ -86,11 +86,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/shams/Downloads/MyHTTPServer 6/HttpServerLibrary/HttpServerLibrary.csproj",
+      "projectUniqueName": "/Users/shams/Desktop/MyHTTPServer 6/HttpServerLibrary/HttpServerLibrary.csproj",
       "projectName": "HttpServerLibrary",
-      "projectPath": "/Users/shams/Downloads/MyHTTPServer 6/HttpServerLibrary/HttpServerLibrary.csproj",
+      "projectPath": "/Users/shams/Desktop/MyHTTPServer 6/HttpServerLibrary/HttpServerLibrary.csproj",
       "packagesPath": "/Users/shams/.nuget/packages/",
-      "outputPath": "/Users/shams/Downloads/MyHTTPServer 6/HttpServerLibrary/obj/",
+      "outputPath": "/Users/shams/Desktop/MyHTTPServer 6/HttpServerLibrary/obj/",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "configFilePaths": [

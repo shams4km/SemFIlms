@@ -1,60 +1,69 @@
-﻿using HttpServerLibrary;
-using HttpServerLibrary.Attributes;
+﻿using HttpServerLibrary.Attributes;
 using HttpServerLibrary.HttpResponce;
+using System;
+using System.IO;
+using HttpServerLibrary;
 
 namespace MyHTTPServer.EndPoints
 {
-    
     public class MovieEndpoint : BaseEndPoint
     {
         private readonly ORMContext _context;
 
-        // Конструктор с параметром для передачи ORMContext
         public MovieEndpoint()
         {
-            var connectionString = "Host=localhost; Port=5432; Username=postgres; Password=19370; Database=postgres"; // Укажите вашу строку подключения
-            _context = new ORMContext(connectionString);  // Создаем ORMContext с параметром
+            var connectionString = "Host=localhost; Port=5432; Username=postgres; Password=19370; Database=films";
+            _context = new ORMContext(connectionString);
         }
 
-        [Get("movie")]
-        public IHttpResponceResult GetMovie(int id) // Получаем id из запроса
+        [Get("assets/movies/{id}")]
+        public IHttpResponceResult GetMovie(int id)
         {
-            var movieDetails = _context.GetMovieDetailsById(id); // Используем переданный id
-            if (movieDetails == null)
+            Console.WriteLine($"[INFO] Вызов метода GetMovie с ID: {id}");
+
+            try
             {
-                return Html("<h1>Фильм не найден</h1>");
+                Console.WriteLine($"[INFO] Получение данных о фильме с ID: {id}");
+                var movieDetails = _context.GetMovieDetailsById(id);
+
+                if (movieDetails == null)
+                {
+                    Console.WriteLine($"[WARN] Фильм с ID {id} не найден");
+                    return Html("<h1>Фильм не найден</h1>");
+                }
+
+                Console.WriteLine($"[INFO] Данные о фильме получены: {movieDetails.Title}");
+
+                // Используем абсолютный путь к шаблону
+                var baseDirectory = AppContext.BaseDirectory; // Корневая папка приложения
+                var filePath = Path.Combine(baseDirectory, "public", "ltr", "assets", "movies", "movie.html");
+
+                if (!File.Exists(filePath))
+                {
+                    Console.WriteLine($"[ERROR] Шаблон не найден: {filePath}");
+                    return Html("<h1>Шаблон не найден</h1>");
+                }
+
+                Console.WriteLine($"[INFO] Чтение шаблона: {filePath}");
+                var fileContent = File.ReadAllText(filePath);
+
+                // Замена плейсхолдеров на реальные данные
+                fileContent = fileContent
+                    .Replace("{{title}}", movieDetails.Title)
+                    .Replace("{{description}}", movieDetails.Description)
+                    .Replace("{{year}}", movieDetails.Year.ToString())
+                    .Replace("{{director}}", movieDetails.Director)
+                    .Replace("{{image_path}}", movieDetails.ImagePath)
+                    .Replace("{{video_url}}", movieDetails.VideoUrl);
+
+                Console.WriteLine($"[INFO] Шаблон успешно обработан");
+                return Html(fileContent);
             }
-
-
-            var filePath = @"Templates/Pages/Movie/movie.html";
-            var fileContent = File.ReadAllText(filePath);
-
-            // Вставляем данные в шаблон
-            fileContent = fileContent.Replace("{{title}}", movieDetails.Title)
-                .Replace("{{description}}", movieDetails.Description)
-                .Replace("{{release_year}}", movieDetails.ReleaseYear.ToString())
-                .Replace("{{genre}}", movieDetails.Genre);
-
-            // Форматируем список актеров
-            var actorsHtml = string.Empty;
-            foreach (var actor in movieDetails.Actors)
+            catch (Exception ex)
             {
-                actorsHtml += $"<div>{actor.Name} - {actor.Role}</div>";
+                Console.WriteLine($"[ERROR] Ошибка в GetMovie: {ex.Message}");
+                return Html("<h1>Произошла ошибка при обработке запроса</h1>");
             }
-
-            // Если актеры не найдены, можно вывести сообщение или оставить поле пустым
-            if (string.IsNullOrEmpty(actorsHtml))
-            {
-                actorsHtml = "<p>Нет информации об актерах.</p>";
-            }
-
-            // Вставляем актеров в шаблон
-            fileContent = fileContent.Replace("{{actors}}", actorsHtml);
-            
-
-            return Html(fileContent);
         }
-
     }
-
 }

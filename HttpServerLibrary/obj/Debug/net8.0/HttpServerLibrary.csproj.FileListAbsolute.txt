@@ -36,3 +36,17 @@ D:/Загрузки/MyHTTPServerORIS/MyHTTPServer/HttpServerLibrary/obj/Debug/ne
 /Users/shams/Downloads/MyHTTPServer 6/HttpServerLibrary/obj/Debug/net8.0/refint/HttpServerLibrary.dll
 /Users/shams/Downloads/MyHTTPServer 6/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.pdb
 /Users/shams/Downloads/MyHTTPServer 6/HttpServerLibrary/obj/Debug/net8.0/ref/HttpServerLibrary.dll
+/Users/shams/Desktop/MyHTTPServer 6/HttpServerLibrary/bin/Debug/net8.0/HTTPServer.cs
+/Users/shams/Desktop/MyHTTPServer 6/HttpServerLibrary/bin/Debug/net8.0/HttpServerLibrary.deps.json
+/Users/shams/Desktop/MyHTTPServer 6/HttpServerLibrary/bin/Debug/net8.0/HttpServerLibrary.dll
+/Users/shams/Desktop/MyHTTPServer 6/HttpServerLibrary/bin/Debug/net8.0/HttpServerLibrary.pdb
+/Users/shams/Desktop/MyHTTPServer 6/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.csproj.AssemblyReference.cache
+/Users/shams/Desktop/MyHTTPServer 6/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shams/Desktop/MyHTTPServer 6/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.AssemblyInfoInputs.cache
+/Users/shams/Desktop/MyHTTPServer 6/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.AssemblyInfo.cs
+/Users/shams/Desktop/MyHTTPServer 6/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.csproj.CoreCompileInputs.cache
+/Users/shams/Desktop/MyHTTPServer 6/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.sourcelink.json
+/Users/shams/Desktop/MyHTTPServer 6/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.dll
+/Users/shams/Desktop/MyHTTPServer 6/HttpServerLibrary/obj/Debug/net8.0/refint/HttpServerLibrary.dll
+/Users/shams/Desktop/MyHTTPServer 6/HttpServerLibrary/obj/Debug/net8.0/HttpServerLibrary.pdb
+/Users/shams/Desktop/MyHTTPServer 6/HttpServerLibrary/obj/Debug/net8.0/ref/HttpServerLibrary.dll

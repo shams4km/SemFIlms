@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/shams/Downloads/MyHTTPServer 6/TemplateEngineUnitTests/TemplateEngineUnitTests.csproj": {}
+    "/Users/shams/Desktop/MyHTTPServer 6/TemplateEngineUnitTests/TemplateEngineUnitTests.csproj": {}
   },
   "projects": {
-    "/Users/shams/Downloads/MyHTTPServer 6/HttpServerLibrary/HttpServerLibrary.csproj": {
+    "/Users/shams/Desktop/MyHTTPServer 6/HttpServerLibrary/HttpServerLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/shams/Downloads/MyHTTPServer 6/HttpServerLibrary/HttpServerLibrary.csproj",
+        "projectUniqueName": "/Users/shams/Desktop/MyHTTPServer 6/HttpServerLibrary/HttpServerLibrary.csproj",
         "projectName": "HttpServerLibrary",
-        "projectPath": "/Users/shams/Downloads/MyHTTPServer 6/HttpServerLibrary/HttpServerLibrary.csproj",
+        "projectPath": "/Users/shams/Desktop/MyHTTPServer 6/HttpServerLibrary/HttpServerLibrary.csproj",
         "packagesPath": "/Users/shams/.nuget/packages/",
-        "outputPath": "/Users/shams/Downloads/MyHTTPServer 6/HttpServerLibrary/obj/",
+        "outputPath": "/Users/shams/Desktop/MyHTTPServer 6/HttpServerLibrary/obj/",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
@@ -79,14 +79,14 @@
         }
       }
     },
-    "/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/MyHTTPServer.csproj": {
+    "/Users/shams/Desktop/MyHTTPServer 6/MyHTTPServer/MyHTTPServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/MyHTTPServer.csproj",
+        "projectUniqueName": "/Users/shams/Desktop/MyHTTPServer 6/MyHTTPServer/MyHTTPServer.csproj",
         "projectName": "MyHTTPServer",
-        "projectPath": "/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/MyHTTPServer.csproj",
+        "projectPath": "/Users/shams/Desktop/MyHTTPServer 6/MyHTTPServer/MyHTTPServer.csproj",
         "packagesPath": "/Users/shams/.nuget/packages/",
-        "outputPath": "/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/obj/",
+        "outputPath": "/Users/shams/Desktop/MyHTTPServer 6/MyHTTPServer/obj/",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
@@ -102,11 +102,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/shams/Downloads/MyHTTPServer 6/HttpServerLibrary/HttpServerLibrary.csproj": {
-                "projectPath": "/Users/shams/Downloads/MyHTTPServer 6/HttpServerLibrary/HttpServerLibrary.csproj"
+              "/Users/shams/Desktop/MyHTTPServer 6/HttpServerLibrary/HttpServerLibrary.csproj": {
+                "projectPath": "/Users/shams/Desktop/MyHTTPServer 6/HttpServerLibrary/HttpServerLibrary.csproj"
               },
-              "/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary/MyORMLibrary.csproj": {
-                "projectPath": "/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary/MyORMLibrary.csproj"
+              "/Users/shams/Desktop/MyHTTPServer 6/MyORMLibrary/MyORMLibrary.csproj": {
+                "projectPath": "/Users/shams/Desktop/MyHTTPServer 6/MyORMLibrary/MyORMLibrary.csproj"
               }
             }
           }
@@ -173,14 +173,14 @@
         }
       }
     },
-    "/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary/MyORMLibrary.csproj": {
+    "/Users/shams/Desktop/MyHTTPServer 6/MyORMLibrary/MyORMLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary/MyORMLibrary.csproj",
+        "projectUniqueName": "/Users/shams/Desktop/MyHTTPServer 6/MyORMLibrary/MyORMLibrary.csproj",
         "projectName": "MyORMLibrary",
-        "projectPath": "/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary/MyORMLibrary.csproj",
+        "projectPath": "/Users/shams/Desktop/MyHTTPServer 6/MyORMLibrary/MyORMLibrary.csproj",
         "packagesPath": "/Users/shams/.nuget/packages/",
-        "outputPath": "/Users/shams/Downloads/MyHTTPServer 6/MyORMLibrary/obj/",
+        "outputPath": "/Users/shams/Desktop/MyHTTPServer 6/MyORMLibrary/obj/",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
@@ -252,14 +252,14 @@
         }
       }
     },
-    "/Users/shams/Downloads/MyHTTPServer 6/TemplateEngine/TemplateEngine.csproj": {
+    "/Users/shams/Desktop/MyHTTPServer 6/TemplateEngine/TemplateEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/shams/Downloads/MyHTTPServer 6/TemplateEngine/TemplateEngine.csproj",
+        "projectUniqueName": "/Users/shams/Desktop/MyHTTPServer 6/TemplateEngine/TemplateEngine.csproj",
         "projectName": "TemplateEngine",
-        "projectPath": "/Users/shams/Downloads/MyHTTPServer 6/TemplateEngine/TemplateEngine.csproj",
+        "projectPath": "/Users/shams/Desktop/MyHTTPServer 6/TemplateEngine/TemplateEngine.csproj",
         "packagesPath": "/Users/shams/.nuget/packages/",
-        "outputPath": "/Users/shams/Downloads/MyHTTPServer 6/TemplateEngine/obj/",
+        "outputPath": "/Users/shams/Desktop/MyHTTPServer 6/TemplateEngine/obj/",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
@@ -275,8 +275,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/MyHTTPServer.csproj": {
-                "projectPath": "/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/MyHTTPServer.csproj"
+              "/Users/shams/Desktop/MyHTTPServer 6/MyHTTPServer/MyHTTPServer.csproj": {
+                "projectPath": "/Users/shams/Desktop/MyHTTPServer 6/MyHTTPServer/MyHTTPServer.csproj"
               }
             }
           }
@@ -325,14 +325,14 @@
         }
       }
     },
-    "/Users/shams/Downloads/MyHTTPServer 6/TemplateEngineUnitTests/TemplateEngineUnitTests.csproj": {
+    "/Users/shams/Desktop/MyHTTPServer 6/TemplateEngineUnitTests/TemplateEngineUnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/shams/Downloads/MyHTTPServer 6/TemplateEngineUnitTests/TemplateEngineUnitTests.csproj",
+        "projectUniqueName": "/Users/shams/Desktop/MyHTTPServer 6/TemplateEngineUnitTests/TemplateEngineUnitTests.csproj",
         "projectName": "TemplateEngineUnitTests",
-        "projectPath": "/Users/shams/Downloads/MyHTTPServer 6/TemplateEngineUnitTests/TemplateEngineUnitTests.csproj",
+        "projectPath": "/Users/shams/Desktop/MyHTTPServer 6/TemplateEngineUnitTests/TemplateEngineUnitTests.csproj",
         "packagesPath": "/Users/shams/.nuget/packages/",
-        "outputPath": "/Users/shams/Downloads/MyHTTPServer 6/TemplateEngineUnitTests/obj/",
+        "outputPath": "/Users/shams/Desktop/MyHTTPServer 6/TemplateEngineUnitTests/obj/",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
@@ -348,14 +348,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/shams/Downloads/MyHTTPServer 6/HttpServerLibrary/HttpServerLibrary.csproj": {
-                "projectPath": "/Users/shams/Downloads/MyHTTPServer 6/HttpServerLibrary/HttpServerLibrary.csproj"
+              "/Users/shams/Desktop/MyHTTPServer 6/HttpServerLibrary/HttpServerLibrary.csproj": {
+                "projectPath": "/Users/shams/Desktop/MyHTTPServer 6/HttpServerLibrary/HttpServerLibrary.csproj"
               },
-              "/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/MyHTTPServer.csproj": {
-                "projectPath": "/Users/shams/Downloads/MyHTTPServer 6/MyHTTPServer/MyHTTPServer.csproj"
+              "/Users/shams/Desktop/MyHTTPServer 6/MyHTTPServer/MyHTTPServer.csproj": {
+                "projectPath": "/Users/shams/Desktop/MyHTTPServer 6/MyHTTPServer/MyHTTPServer.csproj"
               },
-              "/Users/shams/Downloads/MyHTTPServer 6/TemplateEngine/TemplateEngine.csproj": {
-                "projectPath": "/Users/shams/Downloads/MyHTTPServer 6/TemplateEngine/TemplateEngine.csproj"
+              "/Users/shams/Desktop/MyHTTPServer 6/TemplateEngine/TemplateEngine.csproj": {
+                "projectPath": "/Users/shams/Desktop/MyHTTPServer 6/TemplateEngine/TemplateEngine.csproj"
               }
             }
           }

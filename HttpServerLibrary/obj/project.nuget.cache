@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fnNH3mSVUSs=",
+  "dgSpecHash": "JdGdyNOncAc=",
   "success": true,
-  "projectFilePath": "/Users/shams/Downloads/MyHTTPServer 6/HttpServerLibrary/HttpServerLibrary.csproj",
+  "projectFilePath": "/Users/shams/Desktop/MyHTTPServer 6/HttpServerLibrary/HttpServerLibrary.csproj",
   "expectedPackageFiles": [
     "/Users/shams/.nuget/packages/stub.system.data.sqlite.core.netstandard/1.0.119/stub.system.data.sqlite.core.netstandard.1.0.119.nupkg.sha512",
     "/Users/shams/.nuget/packages/system.data.sqlite.core/1.0.119/system.data.sqlite.core.1.0.119.nupkg.sha512",

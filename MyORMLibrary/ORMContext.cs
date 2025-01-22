@@ -1,4 +1,6 @@
 ﻿using Npgsql;
+using System;
+using System.Collections.Generic;
 
 public class ORMContext
 {
@@ -9,8 +11,7 @@ public class ORMContext
         _connectionString = connectionString;
     }
 
-    
-
+    // Получить все фильмы
     public IEnumerable<Movie> GetAllMovies()
     {
         var result = new List<Movie>();
@@ -18,7 +19,7 @@ public class ORMContext
         using (var connection = new NpgsqlConnection(_connectionString))
         {
             connection.Open();
-            var query = "SELECT id, title, year, genre, image_path FROM movies";
+            var query = "SELECT id, title, year, director, image_path FROM movies";
             var command = new NpgsqlCommand(query, connection);
 
             using (var reader = command.ExecuteReader())
@@ -30,7 +31,7 @@ public class ORMContext
                         Id = reader.GetInt32(0),
                         Title = reader.GetString(1),
                         Year = reader.GetInt32(2),
-                        Genre = reader.GetString(3),
+                        Director = reader.GetString(3),
                         ImagePath = reader.GetString(4)
                     };
                     result.Add(movie);
@@ -41,30 +42,30 @@ public class ORMContext
         return result;
     }
 
-    // Метод для получения всех фильмов из категории Lectures
-    public IEnumerable<Movie> GetAllLectures()
+    // Получить все лекции
+    public IEnumerable<Lecture> GetAllLectures()
     {
-        var result = new List<Movie>();
+        var result = new List<Lecture>();
 
         using (var connection = new NpgsqlConnection(_connectionString))
         {
             connection.Open();
-            var query = "SELECT id, title, year, genre, image_path FROM lectures";
+            var query = "SELECT id, title, year, director, image_path FROM lectures";
             var command = new NpgsqlCommand(query, connection);
 
             using (var reader = command.ExecuteReader())
             {
                 while (reader.Read())
                 {
-                    var movie = new Movie
+                    var lecture = new Lecture
                     {
                         Id = reader.GetInt32(0),
                         Title = reader.GetString(1),
                         Year = reader.GetInt32(2),
-                        Genre = reader.GetString(3),
+                        Director = reader.GetString(3),
                         ImagePath = reader.GetString(4)
                     };
-                    result.Add(movie);
+                    result.Add(lecture);
                 }
             }
         }
@@ -72,100 +73,155 @@ public class ORMContext
         return result;
     }
 
-    
-
-    
-    
+    // Получить детали фильма по ID
     public MovieDetails GetMovieDetailsById(int movieId)
-{
-    MovieDetails movieDetails = null;
-
-    using (var connection = new NpgsqlConnection(_connectionString))
     {
-        connection.Open();
-        
-        // Запрос для получения основной информации о фильме
-        var query = "SELECT title, description, release_year, genre, image_path FROM movies_details WHERE id = @id";
-        var command = new NpgsqlCommand(query, connection);
-        command.Parameters.AddWithValue("@id", movieId);
+        MovieDetails movieDetails = null;
 
-        using (var reader = command.ExecuteReader())
-        {
-            if (reader.Read())
-            {
-                movieDetails = new MovieDetails
-                {
-                    Title = reader.GetString(0),
-                    Description = reader.GetString(1),
-                    ReleaseYear = reader.GetInt32(2),
-                    Genre = reader.GetString(3),
-                    ImagePath = reader.GetString(4),
-                    Actors = new List<Actor>()
-                };
-            }
-        }
-    }
-
-    // Получаем актеров для фильма
-    if (movieDetails != null)
-    {
-        var actorsQuery = "SELECT name, role FROM actors WHERE movie_id = @Id";
         using (var connection = new NpgsqlConnection(_connectionString))
         {
             connection.Open();
-            var command = new NpgsqlCommand(actorsQuery, connection);
-            command.Parameters.AddWithValue("@Id", movieId);
+
+            // Запрос для получения основной информации о фильме и его деталях
+            var query = @"
+                SELECT 
+                    m.id, 
+                    m.title, 
+                    m.year, 
+                    m.director, 
+                    m.image_path, 
+                    md.description, 
+                    md.video_url
+                FROM 
+                    movies m
+                JOIN 
+                    movie_details md ON m.id = md.movie_id
+                WHERE 
+                    m.id = @id;";
+
+            var command = new NpgsqlCommand(query, connection);
+            command.Parameters.AddWithValue("@id", movieId);
 
             using (var reader = command.ExecuteReader())
             {
-                while (reader.Read())
+                if (reader.Read())
                 {
-                    var actor = new Actor
+                    movieDetails = new MovieDetails
                     {
-                        Name = reader.GetString(0),
-                        Role = reader.GetString(1)
+                        Id = reader.GetInt32(0),
+                        Title = reader.GetString(1),
+                        Year = reader.GetInt32(2),
+                        Director = reader.GetString(3),
+                        ImagePath = reader.GetString(4),
+                        Description = reader.GetString(5),
+                        VideoUrl = reader.GetString(6)
                     };
-                    movieDetails.Actors.Add(actor);
-                    Console.WriteLine($"Actor: {actor.Name}, Role: {actor.Role}");
+                }
+                else
+                {
+                    Console.WriteLine($"Фильм с id {movieId} не найден.");
                 }
             }
         }
 
-        if (movieDetails.Actors.Count == 0)
-        {
-            Console.WriteLine($"Нет актеров для фильма с id {movieId}");
-        }
+        return movieDetails;
     }
 
+    // Получить детали лекции по ID
+    public LectureDetails GetLectureDetailsById(int lectureId)
+    {
+        LectureDetails lectureDetails = null;
 
+        using (var connection = new NpgsqlConnection(_connectionString))
+        {
+            connection.Open();
 
-    
-    return movieDetails;  // Если фильма нет, вернется null
+            // Запрос для получения основной информации о лекции и её деталях
+            var query = @"
+                SELECT 
+                    l.id, 
+                    l.title, 
+                    l.year, 
+                    l.director, 
+                    l.image_path, 
+                    ld.description, 
+                    ld.video_url
+                FROM 
+                    lectures l
+                JOIN 
+                    lecture_details ld ON l.id = ld.lecture_id
+                WHERE 
+                    l.id = @id;";
+
+            var command = new NpgsqlCommand(query, connection);
+            command.Parameters.AddWithValue("@id", lectureId);
+
+            using (var reader = command.ExecuteReader())
+            {
+                if (reader.Read())
+                {
+                    lectureDetails = new LectureDetails
+                    {
+                        Id = reader.GetInt32(0),
+                        Title = reader.GetString(1),
+                        Year = reader.GetInt32(2),
+                        Director = reader.GetString(3),
+                        ImagePath = reader.GetString(4),
+                        Description = reader.GetString(5),
+                        VideoUrl = reader.GetString(6)
+                    };
+                }
+                else
+                {
+                    Console.WriteLine($"Лекция с id {lectureId} не найдена.");
+                }
+            }
+        }
+
+        return lectureDetails;
+    }
 }
-}
 
+// Модель для фильма
 public class Movie
 {
     public int Id { get; set; }
     public string Title { get; set; }
     public int Year { get; set; }
-    public string Genre { get; set; }
+    public string Director { get; set; }
     public string ImagePath { get; set; }
 }
 
+// Модель для деталей фильма
 public class MovieDetails
 {
+    public int Id { get; set; }
     public string Title { get; set; }
-    public string Description { get; set; }
-    public int ReleaseYear { get; set; }
-    public string Genre { get; set; }
+    public int Year { get; set; }
+    public string Director { get; set; }
     public string ImagePath { get; set; }
-    public string TrailerUrl { get; set; }
-    public List<Actor> Actors { get; set; }
+    public string Description { get; set; }
+    public string VideoUrl { get; set; }
 }
 
-public class Actor
+// Модель для лекции
+public class Lecture
 {
-    public string Name { get; set; }
-    public string Role { get; set; }
+    public int Id { get; set; }
+    public string Title { get; set; }
+    public int Year { get; set; }
+    public string Director { get; set; }
+    public string ImagePath { get; set; }
+}
+
+// Модель для деталей лекции
+public class LectureDetails
+{
+    public int Id { get; set; }
+    public string Title { get; set; }
+    public int Year { get; set; }
+    public string Director { get; set; }
+    public string ImagePath { get; set; }
+    public string Description { get; set; }
+    public string VideoUrl { get; set; }
 }
